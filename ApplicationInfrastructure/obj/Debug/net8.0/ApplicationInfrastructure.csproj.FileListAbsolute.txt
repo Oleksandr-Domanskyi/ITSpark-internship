@@ -32,3 +32,4 @@ C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\refin
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.pdb
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.genruntimeconfig.cache
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ref\ApplicationInfrastructure.dll
+C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.sourcelink.json

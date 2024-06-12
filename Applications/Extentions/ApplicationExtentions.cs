@@ -3,6 +3,7 @@ using Applications.Dto;
 using Applications.Dto.Request;
 using Applications.Extentions.MediatRHandler;
 using Applications.Mapper;
+using Applications.Services;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -20,6 +21,8 @@ namespace Applications.Extentions
         {
             services.AddAutoMapper(typeof(ApplicationMapperProfile));
             MediatrServices(services);
+
+            services.AddScoped<IFiltersService<ItemProfileDto>, FiltersService<ItemProfileDto>>();
         }
 
         private static void MediatrServices(IServiceCollection services)

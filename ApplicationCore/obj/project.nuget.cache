@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Kow+zXcYMQHpVn2D+TsEZog2MlIC7kBebNYYK4/3ksjUca2M3Ti7NSLpcTDe4wUvTGs4F/PwnjtVRurtg6EBJA==",
+  "dgSpecHash": "olPG47skargEPDOnj8gwRtkodjyKIKSa/CmF81KJgbXkv3pTq5B5DQ2qQo4DnS9SkQaJCLG3rxNVcvfhFpp11g==",
   "success": true,
   "projectFilePath": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\FeZoX\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\FeZoX\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\FeZoX\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

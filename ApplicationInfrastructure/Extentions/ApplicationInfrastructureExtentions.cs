@@ -31,6 +31,9 @@ namespace ApplicationInfrastructure.Extention
             services.AddScoped(typeof(IEntityService<>), typeof(EntityServices<>));
 
 
+         
+
+
         }
     }
 }

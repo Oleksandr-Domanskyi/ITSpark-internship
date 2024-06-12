@@ -32,3 +32,4 @@ C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.dll
 C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\refint\Applications.dll
 C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.pdb
 C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\ref\Applications.dll
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.sourcelink.json

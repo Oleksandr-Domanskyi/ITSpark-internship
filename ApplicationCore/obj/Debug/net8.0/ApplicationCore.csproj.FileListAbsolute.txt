@@ -20,3 +20,5 @@ C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ApplicationCore
 C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
 C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
 C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json

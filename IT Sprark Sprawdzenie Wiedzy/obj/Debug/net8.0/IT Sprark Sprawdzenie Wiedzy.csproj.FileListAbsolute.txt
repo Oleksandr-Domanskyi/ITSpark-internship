@@ -282,7 +282,6 @@ C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfoInputs.cache
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfo.cs
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.CoreCompileInputs.cache
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.development.json
@@ -298,3 +297,4 @@ C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\re
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.pdb
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.genruntimeconfig.cache
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\ref\IT Sprark Sprawdzenie Wiedzy.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.sourcelink.json

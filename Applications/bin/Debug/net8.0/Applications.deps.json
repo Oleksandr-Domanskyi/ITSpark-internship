@@ -673,6 +673,9 @@
         }
       },
       "ApplicationCore/1.0.0": {
+        "dependencies": {
+          "FluentResults": "3.15.2"
+        },
         "runtime": {
           "ApplicationCore.dll": {}
         }

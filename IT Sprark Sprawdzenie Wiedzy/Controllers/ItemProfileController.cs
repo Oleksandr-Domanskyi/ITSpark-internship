@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Domain.Entity.ItemProfile;
+﻿using ApplicationCore.Domain.Entity.Filters;
+using ApplicationCore.Domain.Entity.ItemProfile;
 using ApplicationInfrastructure.Data;
 using Applications.CQRS.Command.Create;
 using Applications.CQRS.Command.Delete;
@@ -8,12 +9,14 @@ using Applications.CQRS.Queries.GetAll;
 using Applications.CQRS.Queries.GetById;
 using Applications.Dto;
 using Applications.Dto.Request;
+using Applications.Services;
 using Ardalis.Specification.EntityFrameworkCore;
 using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 using MvcRoute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
@@ -23,17 +26,25 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
     public class ItemProfileController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly IFiltersService<ItemProfileDto> _filterService;
+        private Filters<ItemProfileDto> AddFillters {  get; set; }
 
-        public ItemProfileController(IMediator mediator)
+        public ItemProfileController(IMediator mediator, IFiltersService<ItemProfileDto>filterService)
         {
             _mediator = mediator;
+            _filterService = filterService;
+            AddFillters = new Filters<ItemProfileDto>();
         }
 
         [HttpGet("/ListOfItem")]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] FiltersOption model)
         {
             var item = await _mediator.Send(new GetAllQuery<ItemProfile, ItemProfileDto>());
-            return Ok(item.ToList());
+
+            AddFillters.AddFilterOption(model, item);
+
+            var filtered = await _filterService.AddFilters(AddFillters);
+            return Ok(filtered);
         }
 
         [HttpGet("{id}")]
