@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IT Sprark Sprawdzenie Wiedzy.props" />
+</Project>

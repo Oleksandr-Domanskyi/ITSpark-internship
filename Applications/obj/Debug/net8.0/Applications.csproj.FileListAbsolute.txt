@@ -1,0 +1,34 @@
+C:\Users\FeZoX\Desktop\Applications\bin\Debug\net8.0\Applications.deps.json
+C:\Users\FeZoX\Desktop\Applications\bin\Debug\net8.0\Applications.dll
+C:\Users\FeZoX\Desktop\Applications\bin\Debug\net8.0\Applications.pdb
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applications.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applications.AssemblyInfoInputs.cache
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applications.AssemblyInfo.cs
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applications.csproj.CoreCompileInputs.cache
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applications.dll
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\refint\Applications.dll
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applications.pdb
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\ref\Applications.dll
+C:\Users\FeZoX\Desktop\Applications\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\FeZoX\Desktop\Applications\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\FeZoX\Desktop\Applications\obj\Debug\net8.0\Applicat.B7D1A39B.Up2Date
+C:\Users\FeZoX\Desktop\Applications\bin\Debug\net8.0\ApplicationInfrastructure.dll
+C:\Users\FeZoX\Desktop\Applications\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+C:\Users\FeZoX\Desktop\It Spark\Applications\bin\Debug\net8.0\Applications.deps.json
+C:\Users\FeZoX\Desktop\It Spark\Applications\bin\Debug\net8.0\Applications.dll
+C:\Users\FeZoX\Desktop\It Spark\Applications\bin\Debug\net8.0\Applications.pdb
+C:\Users\FeZoX\Desktop\It Spark\Applications\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\FeZoX\Desktop\It Spark\Applications\bin\Debug\net8.0\ApplicationInfrastructure.dll
+C:\Users\FeZoX\Desktop\It Spark\Applications\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\FeZoX\Desktop\It Spark\Applications\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.AssemblyInfoInputs.cache
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.AssemblyInfo.cs
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.csproj.CoreCompileInputs.cache
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applicat.B7D1A39B.Up2Date
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.dll
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\refint\Applications.dll
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.pdb
+C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\ref\Applications.dll

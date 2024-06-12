@@ -1,0 +1,6 @@
+@IT_Sprark_Sprawdzenie_Wiedzy_HostAddress = http://localhost:5169
+
+GET {{IT_Sprark_Sprawdzenie_Wiedzy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
