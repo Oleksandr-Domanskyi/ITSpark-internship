@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ApplicationCore",
+    "\\ApplicationCore\\Domain",
+    "\\ApplicationCore\\Domain\\Authorization",
+    "\\ApplicationInfrastructure",
+    "\\ApplicationInfrastructure\\Contracts",
+    "\\ApplicationInfrastructure\\Data",
     "\\IT Sprark Sprawdzenie Wiedzy",
     "\\IT Sprark Sprawdzenie Wiedzy\\Controllers"
   ],
-  "SelectedNode": "\\IT Sprark Sprawdzenie Wiedzy\\Controllers\\ItemProfileController.cs",
+  "SelectedNode": "\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
   "PreviewInSolutionExplorer": false
 }

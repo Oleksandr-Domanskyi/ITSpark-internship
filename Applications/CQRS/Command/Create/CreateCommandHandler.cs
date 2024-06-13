@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Domain.Entity;
+﻿using ApplicationCore.Domain.Authorization;
+using ApplicationCore.Domain.Entity;
 using ApplicationInfrastructure.Services;
 using AutoMapper;
 using MediatR;
@@ -16,15 +17,18 @@ namespace Applications.CQRS.Command.Create
     {
         private readonly IEntityService<TDomain> _service;
         private readonly IMapper _mapper;
+        private readonly IUserContext _userContext;
 
-        public CreateCommandHandler(IEntityService<TDomain> service,IMapper mapper)
+        public CreateCommandHandler(IEntityService<TDomain> service,IMapper mapper, IUserContext userContext)
         {
             _service = service;
             _mapper = mapper;
+            _userContext = userContext;
         }
 
         public async Task Handle(CreateCommand<TDomain, TReq> request, CancellationToken cancellationToken)
         {
+            
             await _service.AddEntityAsync(_mapper.Map<TDomain>(request));
         }
     }

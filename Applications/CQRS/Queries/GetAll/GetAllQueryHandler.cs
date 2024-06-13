@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Domain.Entity;
+﻿using ApplicationCore.Domain.Authorization;
+using ApplicationCore.Domain.Entity;
 using ApplicationInfrastructure.Services;
 using AutoMapper;
 using MediatR;
@@ -16,15 +17,19 @@ namespace Applications.CQRS.Queries.GetAll
     {
         private readonly IEntityService<TDomain> _service;
         private readonly IMapper _mapper;
+        private readonly IUserContext _userContext;
 
-        public GetAllQueryHandler(IEntityService<TDomain> service, IMapper mapper)
+        public GetAllQueryHandler(IEntityService<TDomain> service, IMapper mapper, IUserContext userContext)
         {
             _service = service;
             _mapper = mapper;
+            _userContext = userContext;
         }
         public async Task<IEnumerable<TDto>> Handle(GetAllQuery<TDomain, TDto> request, CancellationToken cancellationToken)
         {
             var model = await _service.GetListAsync();
+
+            var role = _userContext.GetCurrentUser().Roles;
 
             return _mapper.Map<IEnumerable<TDto>>(model.Value);
         }

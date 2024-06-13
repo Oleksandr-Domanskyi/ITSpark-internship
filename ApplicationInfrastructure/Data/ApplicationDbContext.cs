@@ -1,5 +1,8 @@
-﻿using ApplicationCore.Domain.Entity.Image;
+﻿using ApplicationCore.Domain.Authorization;
+using ApplicationCore.Domain.Entity.Image;
 using ApplicationCore.Domain.Entity.ItemProfile;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationInfrastructure.Data
 {
-    public class ApplicationDbContext:DbContext
+    public class ApplicationDbContext: IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
@@ -34,6 +37,8 @@ namespace ApplicationInfrastructure.Data
 
 
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.HasDefaultSchema("identity");
         }
     }
 }

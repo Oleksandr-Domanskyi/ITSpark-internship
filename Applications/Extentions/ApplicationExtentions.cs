@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Domain.Entity.ItemProfile;
+﻿using ApplicationCore.Domain.Authorization;
+using ApplicationCore.Domain.Entity.ItemProfile;
 using Applications.Dto;
 using Applications.Dto.Request;
 using Applications.Extentions.MediatRHandler;
@@ -24,6 +25,7 @@ namespace Applications.Extentions
 
 
             services.AddTransient(typeof(IFiltersService<>),typeof(FiltersService<>));
+            services.AddScoped<IUserContext, UserContext>();
         }
 
         private static void MediatrServices(IServiceCollection services)
