@@ -15,19 +15,20 @@ namespace Applications.Services
                 domain.entity = domain.entity.Reverse<TDto>().ToList();
                 return Task.FromResult(Pager(domain));
             }
-            PropertyInfo[] property = typeof(TDto).GetProperties();
+            PropertyInfo[] properties = typeof(TDto).GetProperties();
 
 
             domain = Search(domain);
-            //domain = SearchBetween(domain);
+            domain = SearchBetween(domain, properties);
 
             if (domain.SortDirection == "ascending")
             {
-                domain.entity = domain.entity.OrderBy(x => property[1].GetValue(x)).ToList();
+                domain.entity = domain.entity.OrderBy(x => properties[1].GetValue(x)).ToList();
             }
             else
             {
-                domain.entity = domain.entity.OrderByDescending(x => property[1].GetValue(x)).ToList();
+                domain.SortDirection = "descending";
+                domain.entity = domain.entity.OrderByDescending(x => properties[1].GetValue(x)).ToList();
             }
 
             return Task.FromResult(Pager(Search(domain)));
@@ -91,31 +92,36 @@ namespace Applications.Services
             return domain;
         }
 
-        private Filters<TDto> SearchBetween(Filters<TDto> domain, PropertyInfo property)
-        {   
-            if (domain.ToStartSearch == null && domain.ToEndSearch == null || property.PropertyType != typeof(double))
+        private Filters<TDto> SearchBetween(Filters<TDto> domain, PropertyInfo[] properties)
+        {
+            if ((domain.ToStartSearch == null && domain.ToEndSearch == null) || !properties.Any(p => p.PropertyType == typeof(double)))
             {
                 return domain;
             }
 
-            var filteredEntities = domain.entity.Where(e =>
+            var filteredEntities = domain.entity.Where(entity =>
             {
-                var propertyValue = property.GetValue(e) as double?;
-
-                if (propertyValue == null)
+                foreach (var property in properties.Where(p => p.PropertyType == typeof(double)))
                 {
-                    return false;
+                    var propertyValue = property.GetValue(entity);
+                    if (propertyValue == null) continue;
+
+                    double value = (double)propertyValue;
+                    bool startCondition = domain.ToStartSearch == null || value >= domain.ToStartSearch;
+                    bool endCondition = domain.ToEndSearch == null || value <= domain.ToEndSearch;
+
+                    if (startCondition && endCondition)
+                    {
+                        return true;
+                    }
                 }
-
-                bool startCondition = domain.ToStartSearch == null || propertyValue >= domain.ToStartSearch;
-                bool endCondition = domain.ToEndSearch == null || propertyValue <= domain.ToEndSearch;
-
-                return startCondition && endCondition;
+                return false;
             }).ToList();
 
             domain.entity = filteredEntities;
             return domain;
         }
+
 
 
     }

@@ -20,7 +20,6 @@ namespace ApplicationCore.Domain.Entity.Filters
             entity = normalentity;
             SortDirection = model.SortDirection;
             perPage = model.perPage;
-            ColumnName = model.ColumnName;
             CurrentPage = model.CurrentPage;
             SearchBy = model.SearchBy;
             ToEndSearch = model.ToEndSearch;

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\IT Sprark Sprawdzenie Wiedzy"
+    "\\IT Sprark Sprawdzenie Wiedzy",
+    "\\IT Sprark Sprawdzenie Wiedzy\\Controllers"
   ],
-  "SelectedNode": "\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.sln",
+  "SelectedNode": "\\IT Sprark Sprawdzenie Wiedzy\\Controllers\\ItemProfileController.cs",
   "PreviewInSolutionExplorer": false
 }

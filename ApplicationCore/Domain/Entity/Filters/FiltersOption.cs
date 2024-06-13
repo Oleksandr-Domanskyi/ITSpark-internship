@@ -13,7 +13,6 @@
         public double? ToStartSearch { get; set; }
         public double? ToEndSearch { get; set; }
 
-        public string? ColumnName { get; set; }
         public string? SortDirection { get; set; } = "ascending";
 
         public int CurrentPage { get; set; } = 1;

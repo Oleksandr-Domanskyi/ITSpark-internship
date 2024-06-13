@@ -22,7 +22,8 @@ namespace Applications.Extentions
             services.AddAutoMapper(typeof(ApplicationMapperProfile));
             MediatrServices(services);
 
-            services.AddScoped<IFiltersService<ItemProfileDto>, FiltersService<ItemProfileDto>>();
+
+            services.AddTransient(typeof(IFiltersService<>),typeof(FiltersService<>));
         }
 
         private static void MediatrServices(IServiceCollection services)
