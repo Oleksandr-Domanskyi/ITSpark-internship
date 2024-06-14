@@ -11,10 +11,14 @@ namespace ApplicationCore.Domain.Authorization
     public interface IUserContext
     {
         CurrentUser? GetCurrentUser();
+
+
     }
+
 
     public class UserContext : IUserContext
     {
+       
         private readonly IHttpContextAccessor _httpContextAccessor;
 
         public UserContext(IHttpContextAccessor httpContextAccessor)
@@ -31,7 +35,7 @@ namespace ApplicationCore.Domain.Authorization
 
             if (user.Identity == null || !user.Identity.IsAuthenticated)
             {
-                return null;
+                return new CurrentUser(id: default, email: default, roles: "Anonymous");
             }
             var id = user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)!.Value;
             var email = user.FindFirst(c => c.Type == ClaimTypes.Email)!.Value;
@@ -39,5 +43,6 @@ namespace ApplicationCore.Domain.Authorization
 
             return new CurrentUser(id, email, roles);
         }
+       
     }
 }

@@ -10,7 +10,7 @@ namespace Applications.Dto.Request
 {
     public class ItemProfileRequest
     {
-        public Guid Id { get; set; } = default(Guid);
+        public Guid Id { get; set; }
         public string Name { get; set; } = default!;
         public double Price { get; set; } = default!;
         public string? Description { get; set; }

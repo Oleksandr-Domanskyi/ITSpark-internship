@@ -26,10 +26,10 @@ C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\Appli
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.AssemblyInfoInputs.cache
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.AssemblyInfo.cs
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.sourcelink.json
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\Applicat.A5CEFEEF.Up2Date
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.dll
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\refint\ApplicationInfrastructure.dll
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.pdb
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.genruntimeconfig.cache
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ref\ApplicationInfrastructure.dll
-C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.sourcelink.json

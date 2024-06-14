@@ -42,7 +42,7 @@ namespace ApplicationInfrastructure.Repositories.UnitOfWork
         public IRepositoryContract<T> Repository<T>() where T : Entity<Guid>
         {
             var type = typeof(T).Name;
-            if (_repositories.ContainsKey(type)) return (IRepositoryContract<T>)_repositories[type]!;
+            if (_repositories.ContainsKey(type)) return (IRepositoryContract<T>)_repositories[type];
 
             var repositoryType = typeof(Repository<>);
             var repositoryInstance = Activator.CreateInstance(repositoryType.MakeGenericType(typeof(T)), _dbContext);

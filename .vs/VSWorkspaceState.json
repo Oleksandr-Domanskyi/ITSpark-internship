@@ -4,12 +4,13 @@
     "\\ApplicationCore",
     "\\ApplicationCore\\Domain",
     "\\ApplicationCore\\Domain\\Authorization",
+    "\\ApplicationCore\\Domain\\Entity",
     "\\ApplicationInfrastructure",
     "\\ApplicationInfrastructure\\Contracts",
     "\\ApplicationInfrastructure\\Data",
     "\\IT Sprark Sprawdzenie Wiedzy",
     "\\IT Sprark Sprawdzenie Wiedzy\\Controllers"
   ],
-  "SelectedNode": "\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
+  "SelectedNode": "\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.sln",
   "PreviewInSolutionExplorer": false
 }

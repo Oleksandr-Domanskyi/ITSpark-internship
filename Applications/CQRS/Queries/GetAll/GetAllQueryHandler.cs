@@ -29,7 +29,7 @@ namespace Applications.CQRS.Queries.GetAll
         {
             var model = await _service.GetListAsync();
 
-            var role = _userContext.GetCurrentUser().Roles;
+          
 
             return _mapper.Map<IEnumerable<TDto>>(model.Value);
         }

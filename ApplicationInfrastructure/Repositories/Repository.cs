@@ -30,7 +30,15 @@ namespace ApplicationInfrastructure.Repositories
         }
         public override async Task UpdateAsync(T entity, CancellationToken cancellationToken = default)
         {
-             _dbContext.Set<T>().Update(entity);
+
+            var existingEntity = await _dbContext.Set<T>().FindAsync(entity.Id);
+            if (existingEntity == null)
+            {
+                throw new InvalidOperationException($"Entity with id {entity.Id} not found.");
+            }
+
+            _dbContext.Entry(existingEntity).CurrentValues.SetValues(entity);
+            await _dbContext.SaveChangesAsync(cancellationToken);
         }
        
 

@@ -49,6 +49,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "FluentResults": {
               "target": "Package",
               "version": "[3.15.2, )"
@@ -63,7 +67,7 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
@@ -139,10 +143,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Ardalis.Specification.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "FluentResults": {
               "target": "Package",
               "version": "[3.15.2, )"
@@ -152,10 +152,6 @@
               "version": "[12.3.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             },

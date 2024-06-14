@@ -10,7 +10,6 @@ using Applications.CQRS.Queries.GetById;
 using Applications.Dto;
 using Applications.Dto.Request;
 using Applications.Services;
-using Ardalis.Specification.EntityFrameworkCore;
 using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Http;

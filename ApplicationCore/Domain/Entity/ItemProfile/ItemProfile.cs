@@ -17,5 +17,8 @@ namespace ApplicationCore.Domain.Entity.ItemProfile
         public string Category { get; set; } = default!;
         public List<Image.Image>? images { get; set; }
 
+
+        public string? CreatedBy { get; set; }
+
     }
 }

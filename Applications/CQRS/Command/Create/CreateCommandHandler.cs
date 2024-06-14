@@ -6,6 +6,7 @@ using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,8 +29,24 @@ namespace Applications.CQRS.Command.Create
 
         public async Task Handle(CreateCommand<TDomain, TReq> request, CancellationToken cancellationToken)
         {
-            
-            await _service.AddEntityAsync(_mapper.Map<TDomain>(request));
+            var mapped = _mapper.Map<TDomain>(request);
+            await _service.AddEntityAsync(ConnectUserWithProduct(mapped));
+        }
+
+        private TDomain ConnectUserWithProduct(TDomain domain)
+        {
+            PropertyInfo property = typeof(TDomain).GetProperty("CreatedBy")!;
+            var id = _userContext.GetCurrentUser()?.Id;
+            if (id == null)
+            {
+                throw new InvalidOperationException("User not logged");
+            }
+            var createdByValue = property.GetValue(domain)?.ToString();
+            if (string.IsNullOrEmpty(createdByValue))
+            {
+                property.SetValue(domain, id);
+            }
+            return domain;
         }
     }
 }
