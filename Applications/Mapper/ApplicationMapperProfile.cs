@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Domain.Entity.ItemProfile;
+﻿using ApplicationCore.Domain.Entity;
+using ApplicationCore.Domain.Entity.ItemProfile;
 using Applications.CQRS.Command.Create;
 using Applications.CQRS.Command.Update;
 using Applications.Dto;
@@ -19,11 +20,13 @@ namespace Applications.Mapper
             CreateMap<ItemProfile,ItemProfileDto>().ReverseMap();
 
             CreateMap<CreateCommand<ItemProfile, ItemProfileRequest>, ItemProfile>()
-                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.request.Id))
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => Guid.NewGuid()))
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.request.Name))
                 .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.request.Price))
                 .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.request.Description))
-                .ForMember(dest => dest.Category, opt => opt.MapFrom(src => src.request.Category.ToString()));
+                .ForMember(dest => dest.Category, opt => opt.MapFrom(src => src.request.Category.ToString()))
+                .ForMember(dest => dest.CreatedBy, opt => opt.MapFrom(src => src.request.CreatedBy));
+                
             //.ForMember(dest => dest.images, opt => opt.Ignore());
 
             CreateMap<UpdateCommand<ItemProfile, ItemProfileRequest>, ItemProfile>()
@@ -31,7 +34,8 @@ namespace Applications.Mapper
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.request.Name))
                 .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.request.Price))
                 .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.request.Description))
-                .ForMember(dest => dest.Category, opt => opt.MapFrom(src => src.request.Category.ToString()));
+                .ForMember(dest => dest.Category, opt => opt.MapFrom(src => src.request.Category.ToString()))
+                .ForMember(dest => dest.CreatedBy, opt => opt.MapFrom(src => src.request.CreatedBy));
         }
 
     }

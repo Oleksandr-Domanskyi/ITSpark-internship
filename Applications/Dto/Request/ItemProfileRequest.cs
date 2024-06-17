@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Domain.Enum;
+using AutoMapper.Configuration.Annotations;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace Applications.Dto.Request
         public double Price { get; set; } = default!;
         public string? Description { get; set; }
         public Category Category { get; set; }
+        public string? CreatedBy {  get; set; }
         //public IFormFile? images { get; set; }
     }
 }

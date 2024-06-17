@@ -29,7 +29,6 @@ namespace Applications.CQRS.Command.Update
         public async Task Handle(UpdateCommand<TDomain, TReq> request, CancellationToken cancellationToken)
         {
             var model = _mapper.Map<TDomain>(request);
-            
             if(await CheckAuthorization((Guid)typeof(TDomain).GetProperty("Id")?.GetValue(model)!))
             {
                 await _service.UpdateAsync(model);

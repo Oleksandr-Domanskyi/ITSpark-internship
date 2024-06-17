@@ -24,6 +24,7 @@ namespace Applications.CQRS.Command.Delete
         }
         public async Task Handle(DeleteCommand<TDomain> request, CancellationToken cancellationToken)
         {
+
             if (await CheckAuthorization(request._id))
             {
                 await _service.DeleteAsync(request._id);
