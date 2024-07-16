@@ -16,11 +16,11 @@ namespace Applications.CQRS.Command.Create
         where TDomain : Entity<Guid>
         where TReq : class
     {
-        private readonly IEntityService<TDomain> _service;
+        private readonly IEntityService<TDomain,TReq> _service;
         private readonly IMapper _mapper;
         private readonly IUserContext _userContext;
 
-        public CreateCommandHandler(IEntityService<TDomain> service,IMapper mapper, IUserContext userContext)
+        public CreateCommandHandler(IEntityService<TDomain, TReq> service,IMapper mapper, IUserContext userContext)
         {
             _service = service;
             _mapper = mapper;
@@ -29,24 +29,9 @@ namespace Applications.CQRS.Command.Create
 
         public async Task Handle(CreateCommand<TDomain, TReq> request, CancellationToken cancellationToken)
         {
-            var mapped = _mapper.Map<TDomain>(request);
-            await _service.AddEntityAsync(ConnectUserWithProduct(mapped));
+            await _service.AddEntityAsync(request.request);
         }
 
-        private TDomain ConnectUserWithProduct(TDomain domain)
-        {
-            PropertyInfo property = typeof(TDomain).GetProperty("CreatedBy")!;
-            var id = _userContext.GetCurrentUser()?.Id;
-            if (id == null)
-            {
-                throw new InvalidOperationException("User not logged");
-            }
-            var createdByValue = property.GetValue(domain)?.ToString();
-            if (string.IsNullOrEmpty(createdByValue))
-            {
-                property.SetValue(domain, id);
-            }
-            return domain;
-        }
+        
     }
 }

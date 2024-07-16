@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Domain.Entity.Image
 {
-    public class Image:Entity<Guid>
+    public class Image : Entity<Guid>
     {
-        public string? ImageName { get; set; }
-        public string? FileType { get; set; }
-        public byte[]? DataFile { get; set; }
+        public string Path { get; set; } = default!;
+        public Guid ItemProfileId { get; set; }
     }
 }

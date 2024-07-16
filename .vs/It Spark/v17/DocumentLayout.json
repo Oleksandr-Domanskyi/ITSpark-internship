@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\FeZoX\\Desktop\\It Spark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\Mapper\\ApplicationMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\Mapper\\ApplicationMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\Extentions\\ApplicationExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Applications\\Extentions\\ApplicationExtentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GetByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
@@ -114,12 +114,11 @@
               "RelativeToolTip": "Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T12:11:23.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T12:11:23.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GetByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs",
               "RelativeDocumentMoniker": "Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs",
@@ -131,19 +130,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MediatRHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
               "RelativeDocumentMoniker": "Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
               "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
               "RelativeToolTip": "Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAANAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T12:04:43.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationInfrastructureExtentions.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
               "RelativeDocumentMoniker": "ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
@@ -155,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GetAllQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
               "RelativeDocumentMoniker": "Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
@@ -167,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GetAllQuery.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs",
               "RelativeDocumentMoniker": "Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs",
@@ -179,27 +178,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "ApplicationExtentions.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs",
               "RelativeDocumentMoniker": "Applications\\Extentions\\ApplicationExtentions.cs",
               "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs",
               "RelativeToolTip": "Applications\\Extentions\\ApplicationExtentions.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T18:37:19.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ApplicationMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs",
               "RelativeDocumentMoniker": "Applications\\Mapper\\ApplicationMapperProfile.cs",
               "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs",
               "RelativeToolTip": "Applications\\Mapper\\ApplicationMapperProfile.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABuAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T18:35:17.714Z"
+              "WhenOpened": "2024-06-15T18:35:17.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -7,10 +7,82 @@
       "RelativeMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|solutionrelative:controllers\\itemprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62A7C9D9-D20B-477A-973B-B9780CC30617}|..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationinfrastructure\\services\\entityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\extentions\\applicationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|c:\\users\\fezox\\desktop\\it spark\\it sprark sprawdzenie wiedzy\\it sprark sprawdzenie wiedzy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|solutionrelative:it sprark sprawdzenie wiedzy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\extentions\\mediatrhandler\\mediatrhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\update\\updatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\delete\\deletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\delete\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\create\\createcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A7C9D9-D20B-477A-973B-B9780CC30617}|..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationinfrastructure\\extentions\\applicationinfrastructureextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\entity\\ceneo\\ceneoproductinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|c:\\users\\fezox\\desktop\\it spark\\it sprark sprawdzenie wiedzy\\controllers\\ceneoproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|solutionrelative:controllers\\ceneoproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\entity\\filters\\filtersoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\entity\\filters\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\services\\filterservice\\ifiltersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|c:\\users\\fezox\\desktop\\it spark\\it sprark sprawdzenie wiedzy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\services\\ceneoservice\\searchproductceneoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\handles\\ceneoproductinformationhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\queries\\getproductpricefromceneo\\getpricebyceneoqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\queries\\getproductpricefromceneo\\getpricebyceneoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\services\\ceneoservice\\isearchproductceneoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\entity\\ceneo\\ceneoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\applications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\queries\\getall\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\services\\filterservice\\filtersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\dto\\itemprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\mapper\\applicationmapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -25,26 +97,7 @@
       "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\update\\updatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\delete\\deletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\extentions\\applicationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\entity\\itemprofile\\itemprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|c:\\users\\fezox\\desktop\\it spark\\it sprark sprawdzenie wiedzy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\extentions\\mediatrhandler\\mediatrhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62A7C9D9-D20B-477A-973B-B9780CC30617}|..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationinfrastructure\\extentions\\applicationinfrastructureextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62A7C9D9-D20B-477A-973B-B9780CC30617}|..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationinfrastructure\\services\\entityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62A7C9D9-D20B-477A-973B-B9780CC30617}|..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationinfrastructure\\services\\ientityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -65,9 +118,6 @@
       "AbsoluteMoniker": "D:0:0:{62A7C9D9-D20B-477A-973B-B9780CC30617}|..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationinfrastructure\\data\\seed\\applicationseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\services\\filtersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\authorization\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -86,9 +136,6 @@
       "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\authorization\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\delete\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62A7C9D9-D20B-477A-973B-B9780CC30617}|..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationinfrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -99,35 +146,16 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\applications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|c:\\users\\fezox\\desktop\\it spark\\it sprark sprawdzenie wiedzy\\it sprark sprawdzenie wiedzy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{687DD9A7-CBDA-49AD-96F6-5C0B5183D15C}|IT Sprark Sprawdzenie Wiedzy.csproj|solutionrelative:it sprark sprawdzenie wiedzy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\command\\create\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\queries\\getall\\getallqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\cqrs\\queries\\getall\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\extentions\\coreextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF47EC-C744-49F5-8031-E0BF2645B0D9}|..\\Applications\\Applications.csproj|c:\\users\\fezox\\desktop\\it spark\\applications\\services\\ifiltersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\AppData\\Local\\SourceServer\\83fc23bb78ad6681d34b277930f01ec08992da8eb018f7c92773134c1e3184a8\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\entity\\filters\\filtersoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2CE5FEE-75A3-4EE3-830E-CF997CC3A010}|..\\ApplicationCore\\ApplicationCore.csproj|c:\\users\\fezox\\desktop\\it spark\\applicationcore\\domain\\entity\\filters\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FeZoX\\Desktop\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -251,7 +279,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -299,41 +327,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
-              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAYwCAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:34:16.015Z",
+              "DocumentIndex": 3,
+              "Title": "IT Sprark Sprawdzenie Wiedzy.csproj",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
+              "RelativeDocumentMoniker": "IT Sprark Sprawdzenie Wiedzy.csproj",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
+              "RelativeToolTip": "IT Sprark Sprawdzenie Wiedzy.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-14T09:46:03.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "DeleteCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvw8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:55:17.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:55:02.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UpdateCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Update\\UpdateCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Update\\UpdateCommandHandler.cs",
               "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Update\\UpdateCommandHandler.cs",
               "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Update\\UpdateCommandHandler.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwCkAAAAJAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBYAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T08:33:49.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
-              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAmwCIAAAANAAAA",
+              "DocumentIndex": 4,
+              "Title": "MediatRHandler.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
+              "RelativeToolTip": "..\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwCUAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:55:17.988Z",
+              "WhenOpened": "2024-06-15T19:09:30.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Extentions\\ApplicationExtentions.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs",
+              "RelativeToolTip": "..\\Applications\\Extentions\\ApplicationExtentions.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:57:50.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityServices.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\EntityServices.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Services\\EntityServices.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\EntityServices.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Services\\EntityServices.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:14:53.742Z",
               "EditorCaption": ""
             },
             {
@@ -344,296 +424,186 @@
               "RelativeDocumentMoniker": "Controllers\\ItemProfileController.cs",
               "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\Controllers\\ItemProfileController.cs",
               "RelativeToolTip": "Controllers\\ItemProfileController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAA8wEEAAAAJAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAADwv0cAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T10:26:48.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItemProfile.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T10:38:44.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\Mapper\\ApplicationMapperProfile.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs",
-              "RelativeToolTip": "..\\Applications\\Mapper\\ApplicationMapperProfile.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T11:59:50.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemProfileRequest.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
-              "RelativeToolTip": "..\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T11:31:29.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
-              "RelativeToolTip": "..\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T11:05:15.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateCommand.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
-              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T07:37:56.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IEntityServices.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T17:16:15.489Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ApplicationExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\Extentions\\ApplicationExtentions.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\ApplicationExtentions.cs",
-              "RelativeToolTip": "..\\Applications\\Extentions\\ApplicationExtentions.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAAApAAAA",
+              "Title": "CreateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:57:50.614Z",
+              "WhenOpened": "2024-06-12T09:34:16.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EntityServices.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\EntityServices.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Services\\EntityServices.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\EntityServices.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Services\\EntityServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T17:14:53.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T17:12:27.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ApplicationSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T13:12:37.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\Repository.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Repositories\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:40:45.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:27:54.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "ApplicationInfrastructureExtentions.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
               "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
               "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
               "RelativeToolTip": "..\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAApwBkAAAAfAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswCQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:57:14.74Z"
+              "WhenOpened": "2024-06-12T09:57:14.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CeneoProductInformation.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProductInformation.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProductInformation.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProductInformation.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProductInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:21:57.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FiltersOption.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T10:00:46.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:36:15.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IFiltersService.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\FilterService\\IFiltersService.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Services\\FilterService\\IFiltersService.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\FilterService\\IFiltersService.cs",
+              "RelativeToolTip": "..\\Applications\\Services\\FilterService\\IFiltersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:47:35.017Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MediatRHandler.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
-              "RelativeToolTip": "..\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAOAAAA",
+              "Title": "CeneoProductController.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\Controllers\\CeneoProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CeneoProductController.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\Controllers\\CeneoProductController.cs",
+              "RelativeToolTip": "Controllers\\CeneoProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T19:09:30.498Z"
+              "WhenOpened": "2024-06-20T10:04:57.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IRepositoryContract.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABVAAAA",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T07:26:22.601Z"
+              "WhenOpened": "2024-06-11T07:27:54.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADYAAAAJAAAA",
+              "DocumentIndex": 19,
+              "Title": "GetPriceByCeneoQuery.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQuery.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQuery.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQuery.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T12:22:44.663Z"
+              "WhenOpened": "2024-06-20T09:20:05.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CurrentUser.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "DocumentIndex": 18,
+              "Title": "GetPriceByCeneoQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQueryHandler.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQueryHandler.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Queries\\GetProductPriceFromCeneo\\GetPriceByCeneoQueryHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAMwBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T10:41:54.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Entity.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Entity.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Entity.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Entity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:59:22.437Z"
+              "WhenOpened": "2024-06-20T09:24:33.852Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "FiltersService.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\FiltersService.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\Services\\FiltersService.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\FiltersService.cs",
-              "RelativeToolTip": "..\\Applications\\Services\\FiltersService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwE0AAAARAAAA",
+              "Title": "ISearchProductCeneoService.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\CeneoService\\ISearchProductCeneoService.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Services\\CeneoService\\ISearchProductCeneoService.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\CeneoService\\ISearchProductCeneoService.cs",
+              "RelativeToolTip": "..\\Applications\\Services\\CeneoService\\ISearchProductCeneoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:45:10.67Z"
+              "WhenOpened": "2024-06-20T09:38:33.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ApplicationCore.csproj",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\ApplicationCore.csproj",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
-              "RelativeToolTip": "..\\ApplicationCore\\ApplicationCore.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T09:43:37.509Z"
+              "DocumentIndex": 16,
+              "Title": "SearchProductCeneoService.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\CeneoService\\SearchProductCeneoService.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Services\\CeneoService\\SearchProductCeneoService.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\CeneoService\\SearchProductCeneoService.cs",
+              "RelativeToolTip": "..\\Applications\\Services\\CeneoService\\SearchProductCeneoService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAewDMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:27:44.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ApplicationInfrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T09:23:29.81Z"
+              "DocumentIndex": 17,
+              "Title": "CeneoProductInformationHandlers.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Handles\\CeneoProductInformationHandlers.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Handles\\CeneoProductInformationHandlers.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Handles\\CeneoProductInformationHandlers.cs",
+              "RelativeToolTip": "..\\Applications\\Handles\\CeneoProductInformationHandlers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T10:35:32.779Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAIAwwC0AAAAHAAAA",
+              "Title": "CeneoProduct.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProduct.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProduct.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProduct.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T10:23:20.32Z"
+              "WhenOpened": "2024-06-20T11:07:57.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAqwAoAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T07:55:06.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 22,
               "Title": "Applications.csproj",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Applications.csproj",
               "RelativeDocumentMoniker": "..\\Applications\\Applications.csproj",
@@ -641,131 +611,60 @@
               "RelativeToolTip": "..\\Applications\\Applications.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-12T09:44:35.362Z"
+              "WhenOpened": "2024-06-12T09:44:35.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FiltersService.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\FilterService\\FiltersService.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Services\\FilterService\\FiltersService.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\FilterService\\FiltersService.cs",
+              "RelativeToolTip": "..\\Applications\\Services\\FilterService\\FiltersService.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAIwGEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:45:10.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\User.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Authorization\\User.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\User.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Authorization\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Title": "ApplicationMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Mapper\\ApplicationMapperProfile.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Mapper\\ApplicationMapperProfile.cs",
+              "RelativeToolTip": "..\\Applications\\Mapper\\ApplicationMapperProfile.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA6wBEAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T08:37:37.224Z"
+              "WhenOpened": "2024-06-14T11:59:50.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ItemProfileRequest.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
+              "RelativeToolTip": "..\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T11:31:29.229Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "DeleteCommand.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
-              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Title": "GetByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:55:02.002Z"
+              "WhenOpened": "2024-06-14T11:05:15.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IT Sprark Sprawdzenie Wiedzy.csproj",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
-              "RelativeDocumentMoniker": "IT Sprark Sprawdzenie Wiedzy.csproj",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
-              "RelativeToolTip": "IT Sprark Sprawdzenie Wiedzy.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T09:46:03.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "20240614101555_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T10:15:55.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20240614095128_FixUserContex.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:51:28.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "20240614101225_FixUserContex.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
-              "RelativeToolTip": "..\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T10:12:25.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-11T07:32:47.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "GetAllQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
-              "RelativeToolTip": "..\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwB8AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:55:41.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CreateCommand.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
-              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:34:14.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CoreExtention.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Extentions\\CoreExtention.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Extentions\\CoreExtention.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Extentions\\CoreExtention.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Extentions\\CoreExtention.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T10:47:12.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 23,
               "Title": "GetAllQuery.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs",
               "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs",
@@ -777,19 +676,284 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IFiltersService.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\IFiltersService.cs",
-              "RelativeDocumentMoniker": "..\\Applications\\Services\\IFiltersService.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Services\\IFiltersService.cs",
-              "RelativeToolTip": "..\\Applications\\Services\\IFiltersService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "DocumentIndex": 25,
+              "Title": "ItemProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Dto\\ItemProfileDto.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\Dto\\ItemProfileDto.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Dto\\ItemProfileDto.cs",
+              "RelativeToolTip": "..\\Applications\\Dto\\ItemProfileDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:47:35.017Z"
+              "WhenOpened": "2024-06-17T12:36:13.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ItemProfile.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T10:38:44.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:37:56.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEntityServices.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:16:15.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:12:27.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T13:12:37.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:40:45.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IRepositoryContract.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBAAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:26:22.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:22:44.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Authorization\\CurrentUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:41:54.789Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Entity.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Entity.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Entity.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:59:22.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApplicationCore.csproj",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\ApplicationCore.csproj",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
+              "RelativeToolTip": "..\\ApplicationCore\\ApplicationCore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-14T09:43:37.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationInfrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-14T09:23:29.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Authorization\\UserContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIAwwC0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:23:20.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:55:06.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\User.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Authorization\\User.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Authorization\\User.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Authorization\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T08:37:37.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20240614101555_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Migrations\\20240614101555_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T10:15:55.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240614095128_FixUserContex.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Migrations\\20240614095128_FixUserContex.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:51:28.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20240614101225_FixUserContex.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
+              "RelativeToolTip": "..\\ApplicationInfrastructure\\Migrations\\20240614101225_FixUserContex.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T10:12:25.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T07:32:47.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetAllQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwB8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:55:41.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
+              "RelativeDocumentMoniker": "..\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
+              "RelativeToolTip": "..\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:34:14.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CoreExtention.cs",
+              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Extentions\\CoreExtention.cs",
+              "RelativeDocumentMoniker": "..\\ApplicationCore\\Extentions\\CoreExtention.cs",
+              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Extentions\\CoreExtention.cs",
+              "RelativeToolTip": "..\\ApplicationCore\\Extentions\\CoreExtention.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:47:12.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "GetAllQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\AppData\\Local\\SourceServer\\83fc23bb78ad6681d34b277930f01ec08992da8eb018f7c92773134c1e3184a8\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\83fc23bb78ad6681d34b277930f01ec08992da8eb018f7c92773134c1e3184a8\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
@@ -801,31 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "FiltersOption.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Filters\\FiltersOption.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T10:00:46.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Filters.cs",
-              "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
-              "RelativeDocumentMoniker": "..\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
-              "ToolTip": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
-              "RelativeToolTip": "..\\ApplicationCore\\Domain\\Entity\\Filters\\Filters.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwBUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:36:15.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 53,
               "Title": "ApplicationInfrastructureExtentions.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Extentions\\ApplicationInfrastructureExtentions.cs",
@@ -836,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 54,
               "Title": "EntityServices.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Services\\EntityServices.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Services\\EntityServices.cs",
@@ -847,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 52,
               "Title": "MediatRHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\Extentions\\MediatRHandler\\MediatRHandler.cs",
@@ -858,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 55,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Repositories\\Repository.cs",
@@ -869,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "GetAllQuery.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Queries\\GetAll\\GetAllQuery.cs",
@@ -880,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "GetAllQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Queries\\GetAll\\GetAllQueryHandler.cs",
@@ -891,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 58,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationCore\\Domain\\Entity\\Entity.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationCore\\Domain\\Entity\\Entity.cs",
@@ -902,7 +1042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 50,
               "Title": "ItemProfile.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationCore\\Domain\\Entity\\ItemProfile\\ItemProfile.cs",
@@ -913,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 51,
               "Title": "ApplicationExtentions.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\Extentions\\ApplicationExtentions.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\Extentions\\ApplicationExtentions.cs",
@@ -924,7 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 59,
               "Title": "ApplicationInfrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
@@ -935,7 +1075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
@@ -946,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "IRepositoryContract.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Contracts\\IRepositoryContract.cs",
@@ -957,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "Applications.csproj",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\Applications.csproj",
               "RelativeDocumentMoniker": "..\\..\\Applications\\Applications.csproj",
@@ -968,7 +1108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "IEntityServices.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Services\\IEntityServices.cs",
@@ -979,7 +1119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "DeleteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Command\\Delete\\DeleteCommandHandler.cs",
@@ -990,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "DeleteCommand.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Command\\Delete\\DeleteCommand.cs",
@@ -1001,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "UpdateCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Command\\Update\\UpdateCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Command\\Update\\UpdateCommandHandler.cs",
@@ -1012,7 +1152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 67,
               "Title": "UpdateCommand.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Command\\Update\\UpdateCommand.cs",
@@ -1023,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "ApplicationMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\Mapper\\ApplicationMapperProfile.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\Mapper\\ApplicationMapperProfile.cs",
@@ -1034,7 +1174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "ItemProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\Dto\\ItemProfileDto.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\Dto\\ItemProfileDto.cs",
@@ -1045,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 70,
               "Title": "CreateCommand.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Command\\Create\\CreateCommand.cs",
@@ -1056,7 +1196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 71,
               "Title": "ItemProfileRequest.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\Dto\\Request\\ItemProfileRequest.cs",
@@ -1067,7 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 72,
               "Title": "CreateCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Command\\Create\\CreateCommandHandler.cs",
@@ -1078,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 73,
               "Title": "GetByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Queries\\GetById\\GetByIdQueryHandler.cs",
@@ -1089,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 74,
               "Title": "ApplicationSeeder.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Data\\Seed\\ApplicationSeeder.cs",
@@ -1100,7 +1240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 75,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Repositories\\UnitOfWork\\UnitOfWork.cs",
@@ -1111,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 76,
               "Title": "GetByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs",
               "RelativeDocumentMoniker": "..\\..\\Applications\\CQRS\\Queries\\GetById\\GetByIdQuery.cs",
@@ -1122,7 +1262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 77,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Data\\ApplicationDbContext.cs",
@@ -1133,7 +1273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 78,
               "Title": "20240611120747_SomeChangesOFDb.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Migrations\\20240611120747_SomeChangesOFDb.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Migrations\\20240611120747_SomeChangesOFDb.cs",
@@ -1144,7 +1284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 79,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationCore\\Domain\\Entity\\IEntity.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationCore\\Domain\\Entity\\IEntity.cs",
@@ -1155,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 80,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationCore\\Domain\\Enum\\Category.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationCore\\Domain\\Enum\\Category.cs",
@@ -1166,7 +1306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 81,
               "Title": "Image.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationCore\\Domain\\Entity\\Image\\Image.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationCore\\Domain\\Entity\\Image\\Image.cs",
@@ -1177,7 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 82,
               "Title": "ApplicationCore.csproj",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationCore\\ApplicationCore.csproj",
               "RelativeDocumentMoniker": "..\\..\\ApplicationCore\\ApplicationCore.csproj",
@@ -1188,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 83,
               "Title": "20240611100244_AddEntity.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Migrations\\20240611100244_AddEntity.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Migrations\\20240611100244_AddEntity.cs",
@@ -1199,7 +1339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 84,
               "Title": "20240611102356_SomeChanges.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Migrations\\20240611102356_SomeChanges.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Migrations\\20240611102356_SomeChanges.cs",
@@ -1210,7 +1350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 85,
               "Title": "20240611094112_init.cs",
               "DocumentMoniker": "C:\\Users\\FeZoX\\Desktop\\ApplicationInfrastructure\\Migrations\\20240611094112_init.cs",
               "RelativeDocumentMoniker": "..\\..\\ApplicationInfrastructure\\Migrations\\20240611094112_init.cs",

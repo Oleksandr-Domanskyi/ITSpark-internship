@@ -14,19 +14,16 @@ namespace Applications.CQRS.Queries.GetById
         where TDomain : Entity<Guid>
         where TDto : class
     {
-        private readonly IEntityService<TDomain> _service;
-        private readonly IMapper _mapper;
+        private readonly IEntityService<TDomain,TDto> _service;
 
-        public GetByIdQueryHandler(IEntityService<TDomain> service, IMapper mapper)
+        public GetByIdQueryHandler(IEntityService<TDomain,TDto> service)
         {
             _service = service;
-            _mapper = mapper;
         }
         public async Task<TDto> Handle(GetByIdQuery<TDomain, TDto> request, CancellationToken cancellationToken)
         {
             var model = await _service.GetByIdAsync(request._id);
-            var mapped = _mapper.Map<TDto>(model.Value);
-            return mapped;
+            return model.Value;
         }
     }
 }

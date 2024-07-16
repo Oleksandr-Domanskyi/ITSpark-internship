@@ -16,11 +16,11 @@ namespace Applications.CQRS.Command.Update
         where TDomain : Entity<Guid>
         where TReq : class
     {
-        private readonly IEntityService<TDomain> _service;
+        private readonly IEntityService<TDomain, TReq> _service;
         private readonly IMapper _mapper;
         private readonly IUserContext _userContext;
 
-        public UpdateCommandHandler(IEntityService<TDomain> service, IMapper mapper, IUserContext userContext)
+        public UpdateCommandHandler(IEntityService<TDomain, TReq> service, IMapper mapper, IUserContext userContext)
         {
             _service = service;
             _mapper = mapper;
@@ -28,10 +28,9 @@ namespace Applications.CQRS.Command.Update
         }
         public async Task Handle(UpdateCommand<TDomain, TReq> request, CancellationToken cancellationToken)
         {
-            var model = _mapper.Map<TDomain>(request);
-            if(await CheckAuthorization((Guid)typeof(TDomain).GetProperty("Id")?.GetValue(model)!))
+            if(await CheckAuthorization((Guid)typeof(TDomain).GetProperty("Id")?.GetValue(request.request)!))
             {
-                await _service.UpdateAsync(model);
+                await _service.UpdateAsync(request.request);
             }
             else
             {

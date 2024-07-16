@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ApplicationCore",
+    "\\ApplicationCore\\Domain",
+    "\\ApplicationCore\\Domain\\Entity",
+    "\\ApplicationCore\\Domain\\Entity\\Ceneo",
     "\\Applications",
-    "\\Applications\\CQRS",
-    "\\Applications\\CQRS\\Queries",
-    "\\Applications\\CQRS\\Queries\\GetById",
-    "\\Applications\\Extentions",
-    "\\Applications\\Extentions\\MediatRHandler",
     "\\Applications\\Mapper",
-    "\\IT Sprark Sprawdzenie Wiedzy",
-    "\\IT Sprark Sprawdzenie Wiedzy\\Controllers"
+    "\\Applications\\Services",
+    "\\Applications\\Services\\CeneoService",
+    "\\IT Sprark Sprawdzenie Wiedzy"
   ],
-  "SelectedNode": "\\Applications\\Extentions\\ApplicationExtentions.cs",
+  "SelectedNode": "\\ApplicationCore\\Domain\\Entity\\Ceneo\\CeneoProductInformation.cs",
   "PreviewInSolutionExplorer": false
 }

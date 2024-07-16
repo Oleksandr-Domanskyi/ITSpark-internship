@@ -1,4 +1,6 @@
 ﻿using ApplicationCore.Domain.Entity;
+using ApplicationCore.Domain.Entity.Filters;
+using ApplicationInfrastructure.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +11,7 @@ namespace Applications.Contracts
 {
     public interface IRepositoryContract<T> where T : Entity<Guid>
     {
-        Task<List<T>> ListAsync(CancellationToken cancellationToken = default);
+        Task<List<T>> ListAsync(FiltersOption filters, ISpecifications<T> specification, CancellationToken cancellationToken = default);
         Task<T?> GetByIdAsync<TId>(TId id, CancellationToken cancellationToken = default);
 
         Task<T> AddAsync(T entity, CancellationToken cancellationToken = new());

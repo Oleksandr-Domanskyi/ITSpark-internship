@@ -1141,11 +1141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\FeZoX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\obj\\",
+      "outputPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

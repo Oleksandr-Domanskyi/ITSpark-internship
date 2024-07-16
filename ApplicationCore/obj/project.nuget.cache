@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zFt2FuM6KFuQneyr8gUTuwCQXu8D9CUOvg0c1Lv5agsgH00qyUayDV6rUNlBTwkTKpFcrwTRLmBSyx8mhl+tgQ==",
+  "dgSpecHash": "k5GHBc1J4zWMQj+K4gLd4vHIFxs9mTFcEPWRqjpu0ft0nY/O9YTzPZPsbH5nxbb1sXxmN0bAo3u5FR5YtWolfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FeZoX\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\FeZoX\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",

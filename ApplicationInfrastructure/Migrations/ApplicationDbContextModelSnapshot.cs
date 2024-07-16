@@ -29,17 +29,12 @@ namespace ApplicationInfrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<byte[]>("DataFile")
-                        .HasColumnType("bytea");
-
-                    b.Property<string>("FileType")
-                        .HasColumnType("text");
-
-                    b.Property<string>("ImageName")
-                        .HasColumnType("text");
-
-                    b.Property<Guid?>("ItemProfileId")
+                    b.Property<Guid>("ItemProfileId")
                         .HasColumnType("uuid");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
@@ -276,7 +271,9 @@ namespace ApplicationInfrastructure.Migrations
                 {
                     b.HasOne("ApplicationCore.Domain.Entity.ItemProfile.ItemProfile", null)
                         .WithMany("images")
-                        .HasForeignKey("ItemProfileId");
+                        .HasForeignKey("ItemProfileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

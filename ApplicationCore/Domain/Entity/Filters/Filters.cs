@@ -10,7 +10,7 @@ namespace ApplicationCore.Domain.Entity.Filters
     
     public class Filters<TDto>:FiltersOption where TDto : class
     {
-        public IEnumerable<TDto>? entity { get; set; }
+        public IEnumerable<TDto> entity { get; set; } =default!;
         public int? StartPage { get; set; } = 1;
         public int? LastPage { get; set; } 
 
@@ -28,9 +28,9 @@ namespace ApplicationCore.Domain.Entity.Filters
         
         public int TotalPages => GetTotalPages(entity, perPage);
 
-        public int GetTotalPages(IEnumerable<TDto>? entity, int perPage)
+        public int GetTotalPages(IEnumerable<TDto> entity, int perPage)
         {
-            if (entity == null || entity.Count() == null )
+            if (entity == null || entity.Count() == default )
             {
                 return 0;
             }

@@ -11,18 +11,19 @@ using System.Threading.Tasks;
 
 namespace Applications.CQRS.Command.Delete
 {
-    public class DeleteCommandHandler<TDomain> : IRequestHandler<DeleteCommand<TDomain>>
+    public class DeleteCommandHandler<TDomain,TDto> : IRequestHandler<DeleteCommand<TDomain,TDto>>
         where TDomain : Entity<Guid>
+        where TDto : class
     {
-        private readonly IEntityService<TDomain> _service;
+        private readonly IEntityService<TDomain, TDto> _service;
         private readonly IUserContext _userContext;
 
-        public DeleteCommandHandler(IEntityService<TDomain> service, IUserContext userContext)
+        public DeleteCommandHandler(IEntityService<TDomain, TDto> service, IUserContext userContext)
         {
             _service = service;
             _userContext = userContext;
         }
-        public async Task Handle(DeleteCommand<TDomain> request, CancellationToken cancellationToken)
+        public async Task Handle(DeleteCommand<TDomain,TDto> request, CancellationToken cancellationToken)
         {
 
             if (await CheckAuthorization(request._id))

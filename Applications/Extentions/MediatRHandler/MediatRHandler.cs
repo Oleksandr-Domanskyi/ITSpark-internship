@@ -1,9 +1,11 @@
 ﻿using ApplicationCore.Domain.Entity;
+using ApplicationCore.Domain.Entity.Ceneo;
 using Applications.CQRS.Command.Create;
 using Applications.CQRS.Command.Delete;
 using Applications.CQRS.Command.Update;
 using Applications.CQRS.Queries.GetAll;
 using Applications.CQRS.Queries.GetById;
+using Applications.CQRS.Queries.GetProductPriceFromCeneo;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -21,6 +23,8 @@ namespace Applications.Extentions.MediatRHandler
            where TDto : class
            where TReq : class
         {
+            CeneoMediatrRegister(services);
+
             services.AddTransient(
                 typeof(IRequestHandler<GetAllQuery<TDomain, TDto>, IEnumerable<TDto>>),
                 typeof(GetAllQueryHandler<TDomain, TDto>)
@@ -39,9 +43,13 @@ namespace Applications.Extentions.MediatRHandler
                 typeof(UpdateCommandHandler<TDomain, TReq>)
             );
             services.AddTransient(
-                typeof(IRequestHandler<DeleteCommand<TDomain>>),
-                typeof(DeleteCommandHandler<TDomain>)
+                typeof(IRequestHandler<DeleteCommand<TDomain,TDto>>),
+                typeof(DeleteCommandHandler<TDomain, TDto>)
             );
+        }
+        private static void CeneoMediatrRegister(IServiceCollection services)
+        {
+            services.AddTransient<IRequestHandler<GetPriceByCeneoQuery, CeneoProduct>, GetPriceByCeneoQueryHandler>();
         }
     }
 }

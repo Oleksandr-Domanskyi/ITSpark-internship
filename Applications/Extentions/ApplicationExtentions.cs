@@ -2,9 +2,8 @@
 using ApplicationCore.Domain.Entity.ItemProfile;
 using Applications.Dto;
 using Applications.Dto.Request;
-using Applications.Extentions.MediatRHandler;
-using Applications.Mapper;
-using Applications.Services;
+using Applications.Services.CeneoService;
+using Applications.Services.FilterService;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -20,10 +19,10 @@ namespace Applications.Extentions
     {
         public static void AddApplication(this IServiceCollection services)
         {
-            services.AddAutoMapper(typeof(ApplicationMapperProfile));
+            
             MediatrServices(services);
 
-
+            services.AddTransient<ISearchProductCeneoService, SearchProductCeneoService>();
             services.AddTransient(typeof(IFiltersService<>),typeof(FiltersService<>));
             services.AddScoped<IUserContext, UserContext>();
         }

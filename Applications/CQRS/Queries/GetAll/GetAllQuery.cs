@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Domain.Entity;
+using ApplicationCore.Domain.Entity.Filters;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,11 @@ namespace Applications.CQRS.Queries.GetAll
         where TDomain : Entity<Guid>
         where TDto : class
     {
+        public FiltersOption Filters { get; set; }
+        public GetAllQuery(FiltersOption filters)
+        {
+            Filters = filters;
+        }
 
     }
 }

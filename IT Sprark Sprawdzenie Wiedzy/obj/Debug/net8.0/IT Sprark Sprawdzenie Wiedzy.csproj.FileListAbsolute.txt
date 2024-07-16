@@ -148,6 +148,14 @@ C:\Users\FeZoX\Desktop\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\FluentResul
 C:\Users\FeZoX\Desktop\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\FeZoX\Desktop\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.dll
 C:\Users\FeZoX\Desktop\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.pdb
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfoInputs.cache
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfo.cs
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.CoreCompileInputs.cache
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.sourcelink.json
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\appsettings.json
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.exe
@@ -158,9 +166,19 @@ C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Ardalis.Specification.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Ardalis.Specification.EntityFrameworkCore.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.AI.OpenAI.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\EntityFramework.SqlServer.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\EntityFramework.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\FluentResults.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Api.Gax.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Translate.v2.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Cloud.Translation.V2.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\HtmlAgilityPack.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Humanizer.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\MediatR.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\MediatR.Contracts.dll
@@ -185,17 +203,24 @@ C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Mi
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Npgsql.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.API.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.ChatGpt.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Convention.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Hosting.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Management.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -248,20 +273,13 @@ C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationCore.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationInfrastructure.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.dll
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationInfrastructure.pdb
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.pdb
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationCore.pdb
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.AssemblyReference.cache
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfoInputs.cache
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfo.cs
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.CoreCompileInputs.cache
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.sourcelink.json
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.IT Sprark Sprawdzenie Wiedzy.Microsoft.AspNetCore.StaticWebAssets.props
@@ -276,3 +294,7 @@ C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\re
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.pdb
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.genruntimeconfig.cache
 C:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\ref\IT Sprark Sprawdzenie Wiedzy.dll
+c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Storage.Common.dll
+c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.IO.Hashing.dll
+c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -9,16 +9,12 @@
     }
     public class FiltersOption
     {
+
         public string? SearchBy { get; set; }
         public double? ToStartSearch { get; set; }
         public double? ToEndSearch { get; set; }
-
         public string? SortDirection { get; set; } = "ascending";
-
         public int CurrentPage { get; set; } = 1;
-
-
-
         public int perPage { get; set; } = (int)Perpage.InPage5;
     }
 }

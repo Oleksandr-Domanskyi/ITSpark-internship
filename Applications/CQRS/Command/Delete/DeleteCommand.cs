@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 
 namespace Applications.CQRS.Command.Delete
 {
-    public class DeleteCommand<TDomain>: IRequest where TDomain : Entity<Guid>
+    public class DeleteCommand<TDomain,TDto>: IRequest
+        where TDomain : Entity<Guid>
+        where TDto : class
     {
         public readonly Guid _id;
         public DeleteCommand(Guid id)
