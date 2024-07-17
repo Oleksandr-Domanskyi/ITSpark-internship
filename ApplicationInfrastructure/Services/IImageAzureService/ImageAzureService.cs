@@ -41,14 +41,50 @@ namespace ApplicationInfrastructure.Services.ImageService
             return false;
         }
 
-        public Entity SetImagePath(Entity entity, List<Image>Path)
+        public Entity SetImagePath(Entity entity, List<Image> Path)
         {
             var properties = typeof(Entity).GetProperties().Where(p => p.PropertyType == typeof(List<Image>));
             foreach (var property in properties)
             {
-                property.SetValue(entity,Path);
+                property.SetValue(entity, Path);
             }
             return entity;
+        }
+        public async Task DeleteRangeOldImageFromAzure(Entity entity)
+        {
+            var oldImagePaths = new List<Image>();
+            var properties = typeof(Entity).GetProperties().Where(p => p.PropertyType == typeof(List<Image>));
+            foreach (var property in properties)
+            {
+                if (property != null)
+                {
+                    oldImagePaths.AddRange((List<Image>)property.GetValue(entity)!);
+                }
+
+            }
+            foreach (var oldImagePath in oldImagePaths)
+            {
+                await DeleteImageFromAzure(oldImagePath);
+
+            }
+
+        }
+        public List<Image> SetImageItemProfileId(List<Image> images, Guid itemProfileId)
+        {
+            foreach (var image in images)
+            {
+                image.ItemProfileId = itemProfileId;
+            }
+            return images;
+        }
+        private async Task DeleteImageFromAzure(Image image)
+        {
+            if (!string.IsNullOrEmpty(image.Path))
+            {
+                BlobContainerClient blobContainerClient = new BlobContainerClient(_azureoptions.ConnectionString, _azureoptions.Container);
+                BlobClient blobClient = blobContainerClient.GetBlobClient(Path.GetFileName(image.Path));
+                await blobClient.DeleteIfExistsAsync();
+            }
         }
 
         public async Task<List<Image>> UploadImagesToAzure(List<IFormFile> images)

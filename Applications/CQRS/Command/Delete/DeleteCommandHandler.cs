@@ -1,6 +1,7 @@
 ﻿using ApplicationCore.Domain.Authorization;
 using ApplicationCore.Domain.Entity;
 using ApplicationInfrastructure.Services;
+using Applications.Services.UserService;
 using FluentResults;
 using MediatR;
 using System;
@@ -16,17 +17,17 @@ namespace Applications.CQRS.Command.Delete
         where TDto : class
     {
         private readonly IEntityService<TDomain, TDto> _service;
-        private readonly IUserContext _userContext;
+        private readonly ICheckUserService<TDomain, TDomain> _checkUserService;
 
-        public DeleteCommandHandler(IEntityService<TDomain, TDto> service, IUserContext userContext)
+        public DeleteCommandHandler(IEntityService<TDomain, TDto> service, ICheckUserService<TDomain,TDomain> checkUserService)
         {
             _service = service;
-            _userContext = userContext;
+            _checkUserService = checkUserService;
         }
         public async Task Handle(DeleteCommand<TDomain,TDto> request, CancellationToken cancellationToken)
         {
 
-            if (await CheckAuthorization(request._id))
+            if (await _checkUserService.CheckUserAsync(request._id))
             {
                 await _service.DeleteAsync(request._id);
             }
@@ -34,31 +35,6 @@ namespace Applications.CQRS.Command.Delete
             {
                 throw new Exception("Access denied");
             }
-        }
-
-        private async Task<bool> CheckAuthorization(Guid id)
-        {
-            var model = (await _service.GetByIdAsync(id)).Value;
-            var CurrentUser = new User()
-            {
-                Id = _userContext.GetCurrentUser()?.Id,
-                Role = _userContext.GetCurrentUser()?.Roles!
-            };
-            if (CurrentUser.Id == null)
-            {
-                throw new Exception("Acces Denied");
-            }
-            var createdByUserId = typeof(TDomain).GetProperty("CreatedBy")?.GetValue(model)!;
-
-            if (createdByUserId.ToString() == CurrentUser.Id || CurrentUser.Role == "Admin")
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-
         }
     }
 }

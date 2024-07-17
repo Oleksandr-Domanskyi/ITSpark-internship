@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Filters;
+using ApplicationCore.Domain.Entity.Image;
 using ApplicationCore.Domain.Entity.ItemProfile;
 using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Repositories.UnitOfWork;
@@ -23,6 +24,9 @@ namespace ApplicationInfrastructure.Services
      where EntityType : Entity<Guid>
      where EntityDto : class
     {
+        private readonly AutoSpecification<EntityType> specification = new AutoSpecification<EntityType>();
+
+
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IImageAzureService<EntityType, EntityDto> _imageAzureService;
@@ -45,9 +49,9 @@ namespace ApplicationInfrastructure.Services
                 var Path = await _imageAzureService.UploadImagesToAzure(images.ToList());
                 Domain = _imageAzureService.SetImagePath(Domain, Path);
             }
-            await _unitOfWork.Repository<EntityType>().AddAsync(Domain);
+            var responce = await _unitOfWork.Repository<EntityType>().AddAsync(Domain);
             await _unitOfWork.SaveChangesAsync();
-            return Result.Ok();
+            return Result.Ok(responce);
         }
 
         public async Task<Result<EntityType>> DeleteAsync(Guid id)
@@ -60,14 +64,13 @@ namespace ApplicationInfrastructure.Services
         public async Task<Result<EntityDto>> GetByIdAsync(Guid id)
         {
             var model = await Result.Try(async Task<EntityType> () =>
-                 await _unitOfWork.Repository<EntityType>().GetByIdAsync(id),
+                 await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification),
                  ex => new Error(ex.Message));
-            return _mapper.Map<EntityDto>(model);
+            return Result.Ok(_mapper.Map<EntityDto>(model.Value));
         }
 
         public async Task<Result<Filters<EntityDto>>> GetListAsync(FiltersOption filters)
         {
-            var specification = new AutoSpecification<EntityType>();
             var entity = await _unitOfWork.Repository<EntityType>().ListAsync(filters, specification);
 
 
@@ -78,11 +81,29 @@ namespace ApplicationInfrastructure.Services
         }
 
 
-        public async Task<Result<EntityType>> UpdateAsync(EntityDto entity)
+        public async Task<Result<EntityType>> UpdateAsync(EntityDto entity, Guid id)
         {
-            await _unitOfWork.Repository<EntityType>().UpdateAsync(_mapper.Map<EntityType>(entity));
-            await _unitOfWork.SaveChangesAsync();
-            return Result.Ok();
+            var specification = new AutoSpecification<EntityType>();
+            IEnumerable<IFormFile> images;
+            var Domain = await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification);
+
+
+            if (_imageAzureService.HaveImages(entity, out images))
+            {
+                await _imageAzureService.DeleteRangeOldImageFromAzure(Domain!);
+
+                var Path = await _imageAzureService.UploadImagesToAzure(images.ToList());
+                Path = _imageAzureService.SetImageItemProfileId(Path, id);
+                await _unitOfWork.Repository<Image>().AddRange(Path);
+
+
+                Domain = _imageAzureService.SetImagePath(_mapper.Map<EntityType>(entity), Path);
+                Domain.Id = id;
+            }
+            
+
+            var responce = await _unitOfWork.Repository<EntityType>().UpdateAsync(Domain!);
+            return Result.Ok(responce);
         }
     }
 }

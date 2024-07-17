@@ -38,8 +38,11 @@ namespace ApplicationInfrastructure.Repositories
             if (!string.IsNullOrEmpty(filters.SearchBy))
             {
                 query = query
-                    .Where(
-                        item => EF.Property<string>(item, typeof(T).GetProperties().ElementAtOrDefault(0)!.Name).Contains(filters.SearchBy));
+                    .Where(item =>
+                     EF.Property<string>(item, typeof(T)
+                        .GetProperties()
+                        .ElementAtOrDefault(0)!.Name)
+                        .Contains(filters.SearchBy));
             }
 
             PropertyInfo[] numericProperties = typeof(T)
@@ -118,9 +121,9 @@ namespace ApplicationInfrastructure.Repositories
         public async Task<T?> GetByIdAsync<TId>(TId id, ISpecifications<T> specifications, CancellationToken cancellationToken = default)
         {
             IQueryable<T> query = _dbContext.Set<T>();
-            if (specifications != null)
+             if (specifications != null)
             {
-                query =  specifications.ApplyInclude(query);
+                query = specifications.ApplyInclude(query);
             }
             return await query.FirstOrDefaultAsync(p => p.Id.ToString() == id.ToString());
         }
@@ -130,7 +133,7 @@ namespace ApplicationInfrastructure.Repositories
             await _dbContext.Set<T>().AddAsync(entity);
             return entity;
         }
-        public override async Task UpdateAsync(T entity, CancellationToken cancellationToken = default)
+        public override async Task<T> UpdateAsync(T entity, CancellationToken cancellationToken = default)
         {
 
             var existingEntity = await _dbContext.Set<T>().FindAsync(entity.Id);
@@ -141,8 +144,8 @@ namespace ApplicationInfrastructure.Repositories
 
             _dbContext.Entry(existingEntity).CurrentValues.SetValues(entity);
             await _dbContext.SaveChangesAsync(cancellationToken);
+            return entity;
         }
-
 
         public async Task<T?> DeleteAsync(Guid id, CancellationToken cancellationToken)
         {
@@ -152,6 +155,13 @@ namespace ApplicationInfrastructure.Repositories
             _dbContext.Set<T>().Remove(entity);
             await _dbContext.SaveChangesAsync();
             return entity;
+        }
+
+        public async Task<List<T>> AddRange(List<T> entities, CancellationToken cancellationToken = default)
+        {
+             await _dbContext.Set<T>().AddRangeAsync(entities);
+             await _dbContext.SaveChangesAsync();
+             return entities;
         }
     }
 }

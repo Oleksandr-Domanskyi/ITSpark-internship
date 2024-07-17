@@ -17,14 +17,11 @@ namespace Applications.CQRS.Command.Create
         where TReq : class
     {
         private readonly IEntityService<TDomain,TReq> _service;
-        private readonly IMapper _mapper;
-        private readonly IUserContext _userContext;
 
-        public CreateCommandHandler(IEntityService<TDomain, TReq> service,IMapper mapper, IUserContext userContext)
+        public CreateCommandHandler(IEntityService<TDomain, TReq> service)
         {
             _service = service;
-            _mapper = mapper;
-            _userContext = userContext;
+
         }
 
         public async Task Handle(CreateCommand<TDomain, TReq> request, CancellationToken cancellationToken)
