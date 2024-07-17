@@ -4,6 +4,7 @@ using Applications.Dto;
 using Applications.Dto.Request;
 using Applications.Services.CeneoService;
 using Applications.Services.FilterService;
+using Applications.Services.UserService;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -24,7 +25,7 @@ namespace Applications.Extentions
 
             services.AddTransient<ISearchProductCeneoService, SearchProductCeneoService>();
             services.AddTransient(typeof(IFiltersService<>),typeof(FiltersService<>));
-            services.AddScoped<IUserContext, UserContext>();
+            services.AddTransient(typeof(ICheckUserService<,>),typeof(CheckUserService<,>));
         }
 
         private static void MediatrServices(IServiceCollection services)

@@ -8,12 +8,16 @@ using Microsoft.AspNetCore.Http;
 
 namespace ApplicationInfrastructure.Services.ImageService
 {
-    public interface IImageAzureService<Entity,TDto>
+    public interface IImageAzureService<Entity, TDto>
     where Entity : Entity<Guid>
     where TDto : class
     {
         public Task<List<Image>> UploadImagesToAzure(List<IFormFile> images);
         public bool HaveImages(TDto entity, out IEnumerable<IFormFile> images);
-        public Entity SetImagePath(Entity entity, List<Image>Path);
+        public Entity SetImagePath(Entity entity, List<Image> Path);
+
+        public Task DeleteRangeOldImageFromAzure(Entity entity);
+
+        public List<Image> SetImageItemProfileId(List<Image> images, Guid itemProfileId);
     }
 }

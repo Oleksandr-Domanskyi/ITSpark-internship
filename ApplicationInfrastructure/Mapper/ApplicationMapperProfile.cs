@@ -15,7 +15,7 @@ namespace Applications.Mapper
     {
         public ApplicationMapperProfile()
         {
-            CreateMap<ItemProfile, ItemProfileDto>();
+            CreateMap<ItemProfile, ItemProfileDto>().ReverseMap();
 
             CreateMap<ItemProfileRequest, ItemProfile>()
             .ForMember(x => x.images, dest => dest.Ignore());

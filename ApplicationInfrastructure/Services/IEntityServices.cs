@@ -11,7 +11,7 @@ namespace ApplicationInfrastructure.Services
         Task<Result<Filters<EntityDto>>> GetListAsync(FiltersOption filters);
         Task<Result<EntityDto>> GetByIdAsync(Guid id);
         Task<Result<EntityType>> AddEntityAsync(EntityDto entity);
-        Task<Result<EntityType>> UpdateAsync(EntityDto entity);
+        Task<Result<EntityType>> UpdateAsync(EntityDto entity, Guid id);
         Task<Result<EntityType>> DeleteAsync(Guid id);
     }
 }

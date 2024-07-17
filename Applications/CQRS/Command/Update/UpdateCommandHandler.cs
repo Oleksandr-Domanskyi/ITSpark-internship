@@ -1,6 +1,7 @@
 ﻿using ApplicationCore.Domain.Authorization;
 using ApplicationCore.Domain.Entity;
 using ApplicationInfrastructure.Services;
+using Applications.Services.UserService;
 using AutoMapper;
 using MediatR;
 using System;
@@ -17,53 +18,25 @@ namespace Applications.CQRS.Command.Update
         where TReq : class
     {
         private readonly IEntityService<TDomain, TReq> _service;
-        private readonly IMapper _mapper;
-        private readonly IUserContext _userContext;
+        private readonly ICheckUserService<TDomain, TReq> _checkUserService;
 
-        public UpdateCommandHandler(IEntityService<TDomain, TReq> service, IMapper mapper, IUserContext userContext)
+        public UpdateCommandHandler(IEntityService<TDomain, TReq> service,ICheckUserService<TDomain,TReq> checkUserService)
         {
             _service = service;
-            _mapper = mapper;
-            _userContext = userContext;
+            _checkUserService = checkUserService;
         }
         public async Task Handle(UpdateCommand<TDomain, TReq> request, CancellationToken cancellationToken)
         {
-            if(await CheckAuthorization((Guid)typeof(TDomain).GetProperty("Id")?.GetValue(request.request)!))
+            if(await _checkUserService.CheckUserAsync((Guid)typeof(TDomain).GetProperty("Id")?.GetValue(request.request)!))
             {
-                await _service.UpdateAsync(request.request);
+                await _service.UpdateAsync(request.request, request.Id);
             }
             else
             {
                 throw new Exception("Access denied");
             }
-
             
         }
-        private async Task<bool> CheckAuthorization(Guid id)
-        {
-            var model = (await _service.GetByIdAsync(id)).Value;
-            var CurrentUser = new User()
-            {
-                Id = _userContext.GetCurrentUser()?.Id,
-                Role = _userContext.GetCurrentUser()?.Roles!
-            };
-            if (CurrentUser.Id == null)
-            {
-                throw new Exception("Acces Denied");
-            }
-            var createdByUserId = typeof(TDomain).GetProperty("CreatedBy")?.GetValue(model)!;
-
-            if (createdByUserId.ToString() == CurrentUser.Id || CurrentUser.Role == "Admin")
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-
-        }
-
 
 
     }

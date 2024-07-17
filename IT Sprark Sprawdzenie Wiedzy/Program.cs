@@ -1,9 +1,10 @@
+using ApplicationCore.Extentions;
 using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Data.Seed;
 using ApplicationInfrastructure.Extention;
 using Applications.Extentions;
 using Microsoft.AspNetCore.Identity;
-using System.Runtime.CompilerServices;
+
 
 
 
@@ -13,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
+builder.Services.AddCore();
 // Add services to the container.
 
 builder.Services.AddAuthorization();

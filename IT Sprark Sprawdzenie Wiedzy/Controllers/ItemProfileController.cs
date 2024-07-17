@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Domain.Entity.Filters;
+﻿using ApplicationCore.Domain.Authorization;
+using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Entity.ItemProfile;
 using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Services.ImageService;
@@ -13,6 +14,7 @@ using Applications.Dto.Request;
 using Applications.Services.FilterService;
 using Google.Apis.Translate.v2.Data;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -27,28 +29,18 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
     public class ItemProfileController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly IFiltersService<ItemProfile> _filterService;
-        //private Filters<ItemProfileDto> AddFillters {  get; set; }
-        private readonly IImageAzureService<ItemProfile,ItemProfileRequest> _imageAzureService;
+        private readonly IUserContext _userContext;
 
-        public ItemProfileController(IMediator mediator, IFiltersService<ItemProfile>filterService,
-        IImageAzureService<ItemProfile,ItemProfileRequest> imageAzureService)
+        public ItemProfileController(IMediator mediator, IUserContext userContext)
         {
-            _imageAzureService = imageAzureService;
             _mediator = mediator;
-            _filterService = filterService;
-            //AddFillters = new Filters<ItemProfileDto>();
+            _userContext = userContext;
         }
 
         [HttpGet("/ListOfItem")]
         public async Task<IActionResult> GetAll([FromQuery] FiltersOption model)
         {
             var item = await _mediator.Send(new GetAllQuery<ItemProfile, ItemProfileDto>(model));
-
-
-            //AddFillters.AddFilterOption(model, item);
-
-            //var filtered = await _filterService.AddFilters(AddFillters);
             return Ok(item);
         }
 
@@ -59,18 +51,25 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
             return Ok(item);
         }
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create([FromForm]ItemProfileRequest request)
         {
+            var user = _userContext.GetCurrentUser();
+            request.CreatedBy = user!.Id;
             await _mediator.Send(new CreateCommand<ItemProfile, ItemProfileRequest>(request));
             return Created();
         }
         [HttpPut]
-        public async Task<IActionResult> Update([FromBody]ItemProfileRequest request)
+        [Authorize]
+        public async Task<IActionResult> Update([FromForm]ItemProfileRequest request, Guid itemProfileId)
         {
-            await _mediator.Send(new UpdateCommand<ItemProfile, ItemProfileRequest>(request));
+            var user = _userContext.GetCurrentUser();
+            request.CreatedBy = user!.Id;
+            await _mediator.Send(new UpdateCommand<ItemProfile, ItemProfileRequest>(request, itemProfileId));
             return Ok();
         }
         [HttpDelete]
+        [Authorize]
         public async Task<IActionResult> Delete([FromQuery]Guid id)
         {
             await _mediator.Send(new DeleteCommand<ItemProfile, ItemProfileDto>(id));

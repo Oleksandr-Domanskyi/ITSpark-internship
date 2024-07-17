@@ -10,9 +10,7 @@ namespace ApplicationCore.Domain.Authorization
 {
     public interface IUserContext
     {
-        CurrentUser? GetCurrentUser();
-
-
+       public CurrentUser? GetCurrentUser();
     }
 
 
