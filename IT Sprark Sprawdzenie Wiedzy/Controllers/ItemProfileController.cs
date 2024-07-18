@@ -11,7 +11,6 @@ using Applications.CQRS.Queries.GetAll;
 using Applications.CQRS.Queries.GetById;
 using Applications.Dto;
 using Applications.Dto.Request;
-using Applications.Services.FilterService;
 using Google.Apis.Translate.v2.Data;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -29,12 +28,10 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
     public class ItemProfileController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly IUserContext _userContext;
 
-        public ItemProfileController(IMediator mediator, IUserContext userContext)
+        public ItemProfileController(IMediator mediator)
         {
             _mediator = mediator;
-            _userContext = userContext;
         }
 
         [HttpGet("/ListOfItem")]
@@ -54,8 +51,8 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         [Authorize]
         public async Task<IActionResult> Create([FromForm] ItemProfileRequest request)
         {
-            var user = _userContext.GetCurrentUser();
-            request.CreatedBy = user!.Id;
+            // var user = _userContext.GetCurrentUser();
+            // request.CreatedBy = user!.Id;
             await _mediator.Send(new CreateCommand<ItemProfile, ItemProfileRequest>(request));
             return Created();
         }
@@ -63,8 +60,8 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         [Authorize]
         public async Task<IActionResult> Update([FromForm] ItemProfileRequest request, Guid itemProfileId)
         {
-            var user = _userContext.GetCurrentUser();
-            request.CreatedBy = user!.Id;
+            // var user = _userContext.GetCurrentUser();
+            // request.CreatedBy = user!.Id;
             await _mediator.Send(new 
                 UpdateCommand<ItemProfile, ItemProfileDto, ItemProfileRequest>(request, itemProfileId));
             return Ok();

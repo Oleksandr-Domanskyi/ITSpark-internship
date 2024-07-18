@@ -4,6 +4,7 @@ using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Data.Seed;
 using ApplicationInfrastructure.Repositories;
 using ApplicationInfrastructure.Repositories.UnitOfWork;
+using ApplicationInfrastructure.Repositories.UserContext;
 using ApplicationInfrastructure.Services;
 using ApplicationInfrastructure.Services.ImageService;
 using ApplicationInfrastructure.Services.ImageService.GetOldImagePathService;
@@ -37,6 +38,8 @@ namespace ApplicationInfrastructure.Extention
             services.AddAutoMapper(typeof(ApplicationMapperProfile));
 
             // Add API services
+            services.AddScoped<IUserContext, UserContext>();
+
             services.AddScoped(typeof(IEntityService<,>), typeof(EntityServices<,>));
             services.AddScoped(typeof(ISpecification<>), typeof(Specification<>));
             services.AddScoped(typeof(IImageAzureService<,>), typeof(ImageAzureService<,>));

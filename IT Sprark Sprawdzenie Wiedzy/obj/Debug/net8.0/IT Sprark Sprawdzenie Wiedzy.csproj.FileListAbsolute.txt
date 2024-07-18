@@ -298,3 +298,5 @@ c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Az
 c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Storage.Common.dll
 c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.IO.Hashing.dll
 c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll

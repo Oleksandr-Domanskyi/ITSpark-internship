@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IT Sprark Sprawdzenie Wiedzy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a112fcdeb4b1428292dd3cc047ec19259687df2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c00d37375103c56200d92361f190cad42fff38d")]
 [assembly: System.Reflection.AssemblyProductAttribute("IT Sprark Sprawdzenie Wiedzy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IT Sprark Sprawdzenie Wiedzy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

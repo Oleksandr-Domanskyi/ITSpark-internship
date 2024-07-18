@@ -4,7 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Domain.Authorization;
 using ApplicationCore.Domain.Entity;
+using ApplicationInfrastructure.Contracts;
 using ApplicationInfrastructure.Services;
+using System.Security.Claims;
+
 
 namespace Applications.Services.UserService
 {
@@ -29,11 +32,12 @@ namespace Applications.Services.UserService
         }
         public async Task<bool> CheckUserAsync(Guid id)
         {
+            var user = await _userContext.GetCurrentUser();
             var model = (await _service.GetByIdAsync(id)).Value;
             var CurrentUser = new User()
             {
-                Id = _userContext.GetCurrentUser()?.Id,
-                Role = _userContext.GetCurrentUser()?.Roles!
+                Id = user.id,
+                Role = user.Roles
             };
             if (CurrentUser.Id == null)
             {
@@ -41,7 +45,7 @@ namespace Applications.Services.UserService
             }
             var createdByUserId = typeof(TDto).GetProperty("CreatedBy")?.GetValue(model)!;
 
-            return createdByUserId.ToString() == CurrentUser.Id || CurrentUser.Role == "Admin";
+            return createdByUserId.ToString() == CurrentUser.Id || CurrentUser.Role!.Contains("Admin");
         }
     }
 

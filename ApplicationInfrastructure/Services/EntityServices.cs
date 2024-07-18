@@ -7,7 +7,6 @@ using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Repositories.UnitOfWork;
 using ApplicationInfrastructure.Services.ImageService;
 using ApplicationInfrastructure.Specifications;
-using Applications.Services.FilterService;
 using AutoMapper;
 using AutoMapper.Internal;
 using FluentResults;

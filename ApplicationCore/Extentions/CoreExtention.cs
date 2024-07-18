@@ -12,7 +12,7 @@ namespace ApplicationCore.Extentions
     {
         public static void AddCore(this IServiceCollection services)
         {
-            services.AddScoped<IUserContext, UserContext>();
+            
         }
     }
 }
