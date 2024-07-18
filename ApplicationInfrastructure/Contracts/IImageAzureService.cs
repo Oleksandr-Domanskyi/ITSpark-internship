@@ -13,7 +13,7 @@ namespace ApplicationInfrastructure.Services.ImageService
     where TDto : class
     {
         public Task<List<Image>> UploadImagesToAzure(List<IFormFile> images);
-        public bool HaveImages(TDto entity, out IEnumerable<IFormFile> images);
+        public bool HaveImages(TDto entity, out List<IFormFile> images);
         public Entity SetImagePath(Entity entity, List<Image> Path);
 
         public Task DeleteRangeOldImageFromAzure(Entity entity);

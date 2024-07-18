@@ -52,7 +52,7 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         }
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> Create([FromForm]ItemProfileRequest request)
+        public async Task<IActionResult> Create([FromForm] ItemProfileRequest request)
         {
             var user = _userContext.GetCurrentUser();
             request.CreatedBy = user!.Id;
@@ -61,16 +61,17 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         }
         [HttpPut]
         [Authorize]
-        public async Task<IActionResult> Update([FromForm]ItemProfileRequest request, Guid itemProfileId)
+        public async Task<IActionResult> Update([FromForm] ItemProfileRequest request, Guid itemProfileId)
         {
             var user = _userContext.GetCurrentUser();
             request.CreatedBy = user!.Id;
-            await _mediator.Send(new UpdateCommand<ItemProfile, ItemProfileRequest>(request, itemProfileId));
+            await _mediator.Send(new 
+                UpdateCommand<ItemProfile, ItemProfileDto, ItemProfileRequest>(request, itemProfileId));
             return Ok();
         }
         [HttpDelete]
         [Authorize]
-        public async Task<IActionResult> Delete([FromQuery]Guid id)
+        public async Task<IActionResult> Delete([FromQuery] Guid id)
         {
             await _mediator.Send(new DeleteCommand<ItemProfile, ItemProfileDto>(id));
             return NotFound();

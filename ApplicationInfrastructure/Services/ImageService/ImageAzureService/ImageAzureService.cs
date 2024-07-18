@@ -24,7 +24,7 @@ namespace ApplicationInfrastructure.Services.ImageService
             _azureoptions = azureoptions.Value;
         }
 
-        public bool HaveImages(TDto entity, out IEnumerable<IFormFile> images)
+        public bool HaveImages(TDto entity, out List<IFormFile> images)
         {
             var properties = entity.GetType().GetProperties();
             var imageProps = properties.Where(p => p.PropertyType == typeof(List<IFormFile>));
@@ -43,12 +43,24 @@ namespace ApplicationInfrastructure.Services.ImageService
 
         public Entity SetImagePath(Entity entity, List<Image> Path)
         {
+            if (Path == null)
+            {
+                return entity;
+            }
             var properties = typeof(Entity).GetProperties().Where(p => p.PropertyType == typeof(List<Image>));
             foreach (var property in properties)
             {
                 property.SetValue(entity, Path);
             }
             return entity;
+        }
+        public List<Image> SetImageItemProfileId(List<Image> images, Guid itemProfileId)
+        {
+            foreach (var image in images)
+            {
+                image.ItemProfileId = itemProfileId;
+            }
+            return images;
         }
         public async Task DeleteRangeOldImageFromAzure(Entity entity)
         {
@@ -69,14 +81,6 @@ namespace ApplicationInfrastructure.Services.ImageService
             }
 
         }
-        public List<Image> SetImageItemProfileId(List<Image> images, Guid itemProfileId)
-        {
-            foreach (var image in images)
-            {
-                image.ItemProfileId = itemProfileId;
-            }
-            return images;
-        }
         private async Task DeleteImageFromAzure(Image image)
         {
             if (!string.IsNullOrEmpty(image.Path))
@@ -87,10 +91,14 @@ namespace ApplicationInfrastructure.Services.ImageService
             }
         }
 
+
         public async Task<List<Image>> UploadImagesToAzure(List<IFormFile> images)
         {
             List<Image> uploadedImages = new List<Image>();
-
+            if (images == null)
+            {
+                return uploadedImages;
+            }
             foreach (var image in images)
             {
                 var fileExtension = Path.GetExtension(image.FileName);

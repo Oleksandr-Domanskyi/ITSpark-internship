@@ -2,6 +2,7 @@
 using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Entity.Image;
 using ApplicationCore.Domain.Entity.ItemProfile;
+using ApplicationInfrastructure.Contracts;
 using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Repositories.UnitOfWork;
 using ApplicationInfrastructure.Services.ImageService;
@@ -30,23 +31,26 @@ namespace ApplicationInfrastructure.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IImageAzureService<EntityType, EntityDto> _imageAzureService;
+        private readonly IOldImagePathService<EntityType> _oldImagePathService;
 
         public EntityServices(IUnitOfWork unitOfWork, IMapper mapper,
-         IImageAzureService<EntityType, EntityDto> imageAzureService)
+         IImageAzureService<EntityType, EntityDto> imageAzureService,
+         IOldImagePathService<EntityType> oldImagePathService)
         {
             _imageAzureService = imageAzureService;
+            _oldImagePathService = oldImagePathService;
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
 
         public async Task<Result<EntityType>> AddEntityAsync(EntityDto entity)
         {
-            IEnumerable<IFormFile> images;
+            List<IFormFile> images;
             var Domain = _mapper.Map<EntityType>(entity);
 
             if (_imageAzureService.HaveImages(entity, out images))
             {
-                var Path = await _imageAzureService.UploadImagesToAzure(images.ToList());
+                var Path = await _imageAzureService.UploadImagesToAzure(images);
                 Domain = _imageAzureService.SetImagePath(Domain, Path);
             }
             var responce = await _unitOfWork.Repository<EntityType>().AddAsync(Domain);
@@ -69,41 +73,40 @@ namespace ApplicationInfrastructure.Services
             return Result.Ok(_mapper.Map<EntityDto>(model.Value));
         }
 
-        public async Task<Result<Filters<EntityDto>>> GetListAsync(FiltersOption filters)
+        public async Task<Result<IEnumerable<EntityDto>>> GetListAsync(FiltersOption filters)
         {
             var entity = await _unitOfWork.Repository<EntityType>().ListAsync(filters, specification);
-
-
-            var filteredEntities = new Filters<EntityDto>();
-            filteredEntities.AddFilterOption(filters, _mapper.Map<List<EntityDto>>(entity));
-
-            return Result.Ok(filteredEntities);
+            return Result.Ok(_mapper.Map<IEnumerable<EntityDto>>(entity));
         }
 
 
         public async Task<Result<EntityType>> UpdateAsync(EntityDto entity, Guid id)
         {
+            List<IFormFile> images;
             var specification = new AutoSpecification<EntityType>();
-            IEnumerable<IFormFile> images;
             var Domain = await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification);
-
 
             if (_imageAzureService.HaveImages(entity, out images))
             {
+                //Delete Old Image
                 await _imageAzureService.DeleteRangeOldImageFromAzure(Domain!);
+                var oldImagePath = _oldImagePathService.GetOldImagePath(Domain!);
+                await _unitOfWork.Repository<Image>().DeleteRangeAsync(oldImagePath);
 
-                var Path = await _imageAzureService.UploadImagesToAzure(images.ToList());
+                //Save new Image
+                var Path = await _imageAzureService.UploadImagesToAzure(images);
                 Path = _imageAzureService.SetImageItemProfileId(Path, id);
                 await _unitOfWork.Repository<Image>().AddRange(Path);
-
-
                 Domain = _imageAzureService.SetImagePath(_mapper.Map<EntityType>(entity), Path);
-                Domain.Id = id;
             }
-            
+            else
+            {
+                Domain = _mapper.Map<EntityType>(entity);
+            }
+            Domain!.Id = id;
+            var response = await _unitOfWork.Repository<EntityType>().UpdateAsync(Domain!);
 
-            var responce = await _unitOfWork.Repository<EntityType>().UpdateAsync(Domain!);
-            return Result.Ok(responce);
+            return Result.Ok(response);
         }
     }
 }

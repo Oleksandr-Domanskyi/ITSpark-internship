@@ -18,5 +18,6 @@ namespace Applications.Contracts
         Task<List<T>> AddRange(List<T> entities, CancellationToken cancellationToken = new());
         Task<T> UpdateAsync(T entity, CancellationToken cancellationToken = default);
         Task<T?> DeleteAsync(Guid id, CancellationToken cancellationToken = default);
+        Task<List<T?>> DeleteRangeAsync(List<T> entity, CancellationToken cancellationToken = default);
     }
 }

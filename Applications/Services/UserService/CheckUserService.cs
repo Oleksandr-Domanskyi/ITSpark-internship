@@ -39,7 +39,7 @@ namespace Applications.Services.UserService
             {
                 throw new Exception("Acces Denied");
             }
-            var createdByUserId = typeof(TDomain).GetProperty("CreatedBy")?.GetValue(model)!;
+            var createdByUserId = typeof(TDto).GetProperty("CreatedBy")?.GetValue(model)!;
 
             return createdByUserId.ToString() == CurrentUser.Id || CurrentUser.Role == "Admin";
         }

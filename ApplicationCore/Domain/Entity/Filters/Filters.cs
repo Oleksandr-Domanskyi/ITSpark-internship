@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Domain.Entity.Filters
 {
-    
-    public class Filters<TDto>:FiltersOption where TDto : class
+
+    public class Filters<TDto> : FiltersOption where TDto : class
     {
-        public IEnumerable<TDto> entity { get; set; } =default!;
+        public IEnumerable<TDto> entity { get; set; } = default!;
         public int? StartPage { get; set; } = 1;
-        public int? LastPage { get; set; } 
+        public int? LastPage { get; set; }
 
         public void AddFilterOption(FiltersOption model, IEnumerable<TDto> normalentity)
         {
@@ -25,12 +25,12 @@ namespace ApplicationCore.Domain.Entity.Filters
             ToEndSearch = model.ToEndSearch;
             ToStartSearch = model.ToStartSearch;
         }
-        
+
         public int TotalPages => GetTotalPages(entity, perPage);
 
         public int GetTotalPages(IEnumerable<TDto> entity, int perPage)
         {
-            if (entity == null || entity.Count() == default )
+            if (entity == null || entity.Count() == default)
             {
                 return 0;
             }
