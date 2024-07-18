@@ -39,11 +39,11 @@ namespace Applications.Extentions.MediatRHandler
                 typeof(CreateCommandHandler<TDomain, TReq>)
             );
             services.AddTransient(
-                typeof(IRequestHandler<UpdateCommand<TDomain, TReq>>),
-                typeof(UpdateCommandHandler<TDomain, TReq>)
+                typeof(IRequestHandler<UpdateCommand<TDomain, TDto, TReq>>),
+                typeof(UpdateCommandHandler<TDomain, TDto, TReq>)
             );
             services.AddTransient(
-                typeof(IRequestHandler<DeleteCommand<TDomain,TDto>>),
+                typeof(IRequestHandler<DeleteCommand<TDomain, TDto>>),
                 typeof(DeleteCommandHandler<TDomain, TDto>)
             );
         }

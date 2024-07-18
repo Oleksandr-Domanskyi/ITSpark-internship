@@ -1,11 +1,12 @@
 ﻿using ApplicationCore.Domain.Azure;
+using ApplicationInfrastructure.Contracts;
 using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Data.Seed;
 using ApplicationInfrastructure.Repositories;
 using ApplicationInfrastructure.Repositories.UnitOfWork;
 using ApplicationInfrastructure.Services;
-using ApplicationInfrastructure.Services.ConnectWithUser;
 using ApplicationInfrastructure.Services.ImageService;
+using ApplicationInfrastructure.Services.ImageService.GetOldImagePathService;
 using Applications.Contracts;
 using Applications.Mapper;
 using Ardalis.Specification;
@@ -38,8 +39,8 @@ namespace ApplicationInfrastructure.Extention
             // Add API services
             services.AddScoped(typeof(IEntityService<,>), typeof(EntityServices<,>));
             services.AddScoped(typeof(ISpecification<>), typeof(Specification<>));
-            services.AddScoped(typeof(IConnectWithUser<>), typeof(ConnectWithUser<>));
             services.AddScoped(typeof(IImageAzureService<,>), typeof(ImageAzureService<,>));
+            services.AddScoped(typeof(IOldImagePathService<>), typeof(OldImagePathService<>));
         }
     }
 }

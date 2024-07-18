@@ -25,7 +25,7 @@ namespace Applications.CQRS.Queries.GetAll
         public async Task<IEnumerable<TDto>> Handle(GetAllQuery<TDomain, TDto> request, CancellationToken cancellationToken)
         {
             var model = (await _service.GetListAsync(request.Filters)).Value;
-            return model.entity;
+            return model;
         }
     }
 }

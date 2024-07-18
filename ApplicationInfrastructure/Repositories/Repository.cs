@@ -29,6 +29,10 @@ namespace ApplicationInfrastructure.Repositories
         {
             IQueryable<T> query = _dbContext.Set<T>();
             int skipAmount = (filters.CurrentPage - 1) * filters.perPage;
+            if (skipAmount < 0 || filters.CurrentPage == 0)
+            {
+                return new List<T>();
+            }
 
             if (specifications != null)
             {
@@ -75,8 +79,6 @@ namespace ApplicationInfrastructure.Repositories
                         }
                         return true;
                     })
-                    .OrderByDescending(x =>
-                        EF.Property<string>(x, typeof(T).GetProperties().ElementAtOrDefault(0)!.Name))
                     .Skip(skipAmount)
                     .Take(filters.perPage)
                     .ToList();
@@ -85,14 +87,14 @@ namespace ApplicationInfrastructure.Repositories
                 {
                     return filteredItems
                         .OrderBy(x =>
-                            EF.Property<string>(x, typeof(T).GetProperties().ElementAtOrDefault(0)!.Name))
+                            typeof(T).GetProperties().ElementAtOrDefault(0)!.Name)
                         .ToList();
                 }
                 else
                 {
                     return filteredItems
                         .OrderByDescending(x =>
-                            EF.Property<string>(x, typeof(T).GetProperties().ElementAtOrDefault(0)!.Name))
+                             typeof(T).GetProperties().ElementAtOrDefault(0)!.Name)
                         .ToList();
                 }
             }
@@ -121,7 +123,7 @@ namespace ApplicationInfrastructure.Repositories
         public async Task<T?> GetByIdAsync<TId>(TId id, ISpecifications<T> specifications, CancellationToken cancellationToken = default)
         {
             IQueryable<T> query = _dbContext.Set<T>();
-             if (specifications != null)
+            if (specifications != null)
             {
                 query = specifications.ApplyInclude(query);
             }
@@ -153,15 +155,27 @@ namespace ApplicationInfrastructure.Repositories
             if (entity == null)
                 throw new ArgumentNullException(nameof(entity));
             _dbContext.Set<T>().Remove(entity);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
             return entity;
+        }
+        public async Task<List<T?>> DeleteRangeAsync(List<T> entity, CancellationToken cancellationToken)
+        {
+            if (entity.Any())
+            {
+                _dbContext.Set<T>().RemoveRange(entity);
+                await _dbContext.SaveChangesAsync(cancellationToken);
+            }
+            return entity!;
         }
 
         public async Task<List<T>> AddRange(List<T> entities, CancellationToken cancellationToken = default)
         {
-             await _dbContext.Set<T>().AddRangeAsync(entities);
-             await _dbContext.SaveChangesAsync();
-             return entities;
+            if (entities.Any())
+            {
+                await _dbContext.Set<T>().AddRangeAsync(entities);
+                await _dbContext.SaveChangesAsync();
+            }
+            return entities;
         }
     }
 }
