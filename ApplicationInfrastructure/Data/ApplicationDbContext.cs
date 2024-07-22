@@ -32,11 +32,30 @@ namespace ApplicationInfrastructure.Data
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
-            modelBuilder.Entity<Image>()
-            .HasOne<ItemProfile>()
-            .WithMany(p => p.images)
-            .HasForeignKey(p => p.ItemProfileId)
-            .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<ItemProfile>()
+            .Property(p => p.CreatedBy)
+            .HasColumnName("CreatedBy")
+            .HasColumnType("text");
+
+            modelBuilder.Entity<Image>(entity =>
+            {
+                entity.ToTable("Image", "identity");
+                entity.Property(e => e.CreatedBy)
+                    .HasColumnName("CreatedBy")
+                    .HasColumnType("text");
+
+                entity.Property(e => e.Path)
+                    .IsRequired()
+                    .HasColumnType("text");
+                    
+                entity.HasKey(e => e.Id);
+                entity.HasOne<ItemProfile>()
+                    .WithMany(p => p.images)
+                    .HasForeignKey(i => i.ItemProfileId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
+
+
 
             base.OnModelCreating(modelBuilder);
         }

@@ -1,9 +1,12 @@
 ﻿using ApplicationCore.Domain.Authorization;
 using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Filters;
+using ApplicationCore.Domain.Enum;
 using ApplicationInfrastructure.Services;
+using Applications.Services.UserService;
 using AutoMapper;
 using MediatR;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,16 +19,22 @@ namespace Applications.CQRS.Queries.GetAll
         where TDomain : Entity<Guid>
         where TDto : class
     {
-        private readonly IEntityService<TDomain,TDto> _service;
+        private readonly IEntityService<TDomain, TDto> _service;
+        private readonly ICheckUserService<TDomain, TDto> _checkUserService;
 
-        public GetAllQueryHandler(IEntityService<TDomain,TDto> service)
+        public GetAllQueryHandler(IEntityService<TDomain, TDto> service, ICheckUserService<TDomain, TDto> checkUserService)
         {
             _service = service;
+            _checkUserService = checkUserService;
         }
         public async Task<IEnumerable<TDto>> Handle(GetAllQuery<TDomain, TDto> request, CancellationToken cancellationToken)
         {
-            var model = (await _service.GetListAsync(request.Filters)).Value;
-            return model;
+            if (_checkUserService.CheckAdminAccess(request.Filters, out var updateFilters))
+            {
+                return (await _service.GetListAsync(updateFilters)).Value;
+            }
+            return (await _service.GetListAsync(updateFilters)).Value;
+
         }
     }
 }

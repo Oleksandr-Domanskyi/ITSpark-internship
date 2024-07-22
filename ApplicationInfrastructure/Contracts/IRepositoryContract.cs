@@ -11,7 +11,7 @@ namespace Applications.Contracts
 {
     public interface IRepositoryContract<T> where T : Entity<Guid>
     {
-        Task<List<T>> ListAsync(FiltersOption filters, ISpecifications<T> specification, CancellationToken cancellationToken = default);
+        Task<List<T>> ListAsync(Filters filters, ISpecifications<T> specification, CancellationToken cancellationToken = default);
         Task<T?> GetByIdAsync<TId>(TId id, ISpecifications<T> specifications, CancellationToken cancellationToken = default);
 
         Task<T> AddAsync(T entity, CancellationToken cancellationToken = new());

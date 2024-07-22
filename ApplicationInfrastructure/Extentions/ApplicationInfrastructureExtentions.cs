@@ -2,13 +2,13 @@
 using ApplicationInfrastructure.Contracts;
 using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Data.Seed;
-using ApplicationInfrastructure.Repositories;
 using ApplicationInfrastructure.Repositories.UnitOfWork;
 using ApplicationInfrastructure.Repositories.UserContext;
 using ApplicationInfrastructure.Services;
 using ApplicationInfrastructure.Services.ImageService;
 using ApplicationInfrastructure.Services.ImageService.GetOldImagePathService;
 using Applications.Contracts;
+using Applications.Events.DeleteImageFromAzure;
 using Applications.Mapper;
 using Ardalis.Specification;
 using Microsoft.EntityFrameworkCore;
@@ -44,6 +44,7 @@ namespace ApplicationInfrastructure.Extention
             services.AddScoped(typeof(ISpecification<>), typeof(Specification<>));
             services.AddScoped(typeof(IImageAzureService<,>), typeof(ImageAzureService<,>));
             services.AddScoped(typeof(IOldImagePathService<>), typeof(OldImagePathService<>));
+            services.AddScoped(typeof(IDeleteImageFromAzureEvent<,>),typeof(DeleteImageFromAzureEvent<,>));
         }
     }
 }

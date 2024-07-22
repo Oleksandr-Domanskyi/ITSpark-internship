@@ -1,4 +1,6 @@
-﻿namespace ApplicationCore.Domain.Entity.Filters
+﻿using System.Text.Json.Serialization;
+
+namespace ApplicationCore.Domain.Entity.Filters
 {
     public enum Perpage
     {
@@ -16,5 +18,9 @@
         public string? SortDirection { get; set; } = "ascending";
         public int CurrentPage { get; set; } = 1;
         public int perPage { get; set; } = (int)Perpage.InPage5;
+
+       
+
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Domain.Entity;
+using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Entity.ItemProfile;
 using Applications.Dto;
 using Applications.Dto.Request;
@@ -19,6 +20,8 @@ namespace Applications.Mapper
 
             CreateMap<ItemProfileRequest, ItemProfile>()
             .ForMember(x => x.images, dest => dest.Ignore());
+
+            CreateMap<Filters, FiltersOption>().ReverseMap();
 
         }
 

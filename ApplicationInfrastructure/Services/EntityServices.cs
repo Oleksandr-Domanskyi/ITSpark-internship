@@ -1,22 +1,15 @@
 ﻿using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Entity.Image;
-using ApplicationCore.Domain.Entity.ItemProfile;
 using ApplicationInfrastructure.Contracts;
-using ApplicationInfrastructure.Data;
 using ApplicationInfrastructure.Repositories.UnitOfWork;
 using ApplicationInfrastructure.Services.ImageService;
 using ApplicationInfrastructure.Specifications;
+using Applications.Contracts;
 using AutoMapper;
-using AutoMapper.Internal;
 using FluentResults;
 using Microsoft.AspNetCore.Http;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ApplicationInfrastructure.Services
 {
@@ -31,13 +24,16 @@ namespace ApplicationInfrastructure.Services
         private readonly IMapper _mapper;
         private readonly IImageAzureService<EntityType, EntityDto> _imageAzureService;
         private readonly IOldImagePathService<EntityType> _oldImagePathService;
+        private readonly IDeleteImageFromAzureEvent<EntityType, EntityDto> _deleteImageFromAzureEvent;
 
         public EntityServices(IUnitOfWork unitOfWork, IMapper mapper,
          IImageAzureService<EntityType, EntityDto> imageAzureService,
-         IOldImagePathService<EntityType> oldImagePathService)
+         IOldImagePathService<EntityType> oldImagePathService,
+         IDeleteImageFromAzureEvent<EntityType,EntityDto> deleteImageFromAzureEvent) 
         {
             _imageAzureService = imageAzureService;
             _oldImagePathService = oldImagePathService;
+            _deleteImageFromAzureEvent = deleteImageFromAzureEvent;
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
@@ -59,9 +55,13 @@ namespace ApplicationInfrastructure.Services
 
         public async Task<Result<EntityType>> DeleteAsync(Guid id)
         {
-            return await Result.Try(async Task<EntityType> () =>
-                await _unitOfWork.Repository<EntityType>().DeleteAsync(id),
-                ex => new Error(ex.Message));
+            var entity = await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification);
+
+            _deleteImageFromAzureEvent.ImageDeleteEvent(entity!);
+
+            await _unitOfWork.Repository<EntityType>().DeleteAsync(id);
+            await _unitOfWork.SaveChangesAsync();
+            return Result.Ok(entity!);
         }
 
         public async Task<Result<EntityDto>> GetByIdAsync(Guid id)
@@ -72,7 +72,7 @@ namespace ApplicationInfrastructure.Services
             return Result.Ok(_mapper.Map<EntityDto>(model.Value));
         }
 
-        public async Task<Result<IEnumerable<EntityDto>>> GetListAsync(FiltersOption filters)
+        public async Task<Result<IEnumerable<EntityDto>>> GetListAsync(Filters filters)
         {
             var entity = await _unitOfWork.Repository<EntityType>().ListAsync(filters, specification);
             return Result.Ok(_mapper.Map<IEnumerable<EntityDto>>(entity));
@@ -87,12 +87,13 @@ namespace ApplicationInfrastructure.Services
 
             if (_imageAzureService.HaveImages(entity, out images))
             {
-                //Delete Old Image
-                await _imageAzureService.DeleteRangeOldImageFromAzure(Domain!);
+                
+                //Delete Old Images
+                _deleteImageFromAzureEvent.ImageDeleteEvent(Domain!);
                 var oldImagePath = _oldImagePathService.GetOldImagePath(Domain!);
                 await _unitOfWork.Repository<Image>().DeleteRangeAsync(oldImagePath);
 
-                //Save new Image
+                //Save new Images
                 var Path = await _imageAzureService.UploadImagesToAzure(images);
                 Path = _imageAzureService.SetImageItemProfileId(Path, id);
                 await _unitOfWork.Repository<Image>().AddRange(Path);

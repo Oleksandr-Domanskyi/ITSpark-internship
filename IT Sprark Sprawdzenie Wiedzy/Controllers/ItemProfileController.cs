@@ -9,6 +9,7 @@ using Applications.CQRS.Command.Update;
 using Applications.CQRS.Queries;
 using Applications.CQRS.Queries.GetAll;
 using Applications.CQRS.Queries.GetById;
+using Applications.CQRS.User.Queries.GetCurrentUser;
 using Applications.Dto;
 using Applications.Dto.Request;
 using Google.Apis.Translate.v2.Data;
@@ -23,7 +24,7 @@ using MvcRoute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
 {
-    [MvcRoute("api/[controller]")]
+    [MvcRoute("[controller]")]
     [ApiController]
     public class ItemProfileController : ControllerBase
     {
@@ -35,6 +36,7 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         }
 
         [HttpGet("/ListOfItem")]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] FiltersOption model)
         {
             var item = await _mediator.Send(new GetAllQuery<ItemProfile, ItemProfileDto>(model));
@@ -51,8 +53,8 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         [Authorize]
         public async Task<IActionResult> Create([FromForm] ItemProfileRequest request)
         {
-            // var user = _userContext.GetCurrentUser();
-            // request.CreatedBy = user!.Id;
+            var user = await _mediator.Send(new GetCurrentUserQuery());
+            request.CreatedBy = user!.id;
             await _mediator.Send(new CreateCommand<ItemProfile, ItemProfileRequest>(request));
             return Created();
         }
@@ -60,9 +62,9 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         [Authorize]
         public async Task<IActionResult> Update([FromForm] ItemProfileRequest request, Guid itemProfileId)
         {
-            // var user = _userContext.GetCurrentUser();
-            // request.CreatedBy = user!.Id;
-            await _mediator.Send(new 
+            var user = await _mediator.Send(new GetCurrentUserQuery());
+            request.CreatedBy = user!.id;
+            await _mediator.Send(new
                 UpdateCommand<ItemProfile, ItemProfileDto, ItemProfileRequest>(request, itemProfileId));
             return Ok();
         }

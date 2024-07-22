@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Entity.Image;
+using ApplicationCore.Domain.Enum;
 using ApplicationInfrastructure.Contracts;
 using ApplicationInfrastructure.Data;
 using Applications.Contracts;
@@ -25,7 +26,7 @@ namespace ApplicationInfrastructure.Repositories
         {
             _dbContext = dbContext;
         }
-        public async Task<List<T>> ListAsync(FiltersOption filters, ISpecifications<T> specifications, CancellationToken cancellationToken = default)
+        public async Task<List<T>> ListAsync(Filters filters, ISpecifications<T> specifications, CancellationToken cancellationToken = default)
         {
             IQueryable<T> query = _dbContext.Set<T>();
             int skipAmount = (filters.CurrentPage - 1) * filters.perPage;
@@ -37,7 +38,9 @@ namespace ApplicationInfrastructure.Repositories
             if (specifications != null)
             {
                 query = specifications.ApplyInclude(query);
+                query = specifications.ApplyFilter(query,filters);
             }
+            
 
             if (!string.IsNullOrEmpty(filters.SearchBy))
             {

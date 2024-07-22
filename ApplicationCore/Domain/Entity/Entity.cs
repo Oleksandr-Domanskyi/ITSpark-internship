@@ -10,5 +10,6 @@ namespace ApplicationCore.Domain.Entity
     {
         protected TId _id;
         public TId Id { get => _id; set => _id = value; }
+        public string? CreatedBy { get; set; }
     }
 }

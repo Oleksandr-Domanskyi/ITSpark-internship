@@ -8,7 +8,7 @@ namespace ApplicationInfrastructure.Services
      where EntityType : Entity<Guid>
      where EntityDto : class
     {
-        Task<Result<IEnumerable<EntityDto>>> GetListAsync(FiltersOption filters);
+        Task<Result<IEnumerable<EntityDto>>> GetListAsync(Filters filters);
         Task<Result<EntityDto>> GetByIdAsync(Guid id);
         Task<Result<EntityType>> AddEntityAsync(EntityDto entity);
         Task<Result<EntityType>> UpdateAsync(EntityDto entity, Guid id);

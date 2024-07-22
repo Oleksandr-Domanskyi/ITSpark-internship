@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Image;
 using ApplicationInfrastructure.Contracts;
+using ApplicationCore.Domain.Entity.Filters;
+using ApplicationCore.Domain.Enum;
 
 namespace ApplicationInfrastructure.Specifications
 {
@@ -25,6 +27,15 @@ namespace ApplicationInfrastructure.Specifications
 
             return query;
         }
+        public IQueryable<T> ApplyFilter(IQueryable<T> query, Filters filters)
+        {
+            if (filters.Roles == UserRole.Customer.ToString())
+            {
+                query = query.Where(item => item.CreatedBy == filters.CreatedBy);
+            }
+            return query;         
+        }
+
 
         private bool IsIncludedNavigationProperty(PropertyInfo property)
         {
