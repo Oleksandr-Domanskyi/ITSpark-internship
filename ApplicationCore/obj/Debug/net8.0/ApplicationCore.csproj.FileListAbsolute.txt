@@ -22,3 +22,29 @@ C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ApplicationCore
 C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
 C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
 C:\Users\FeZoX\Desktop\It Spark\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+D:\ITSpark-internship\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+D:\ITSpark-internship\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+D:\ITSpark-internship\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+D:\ITSpark-internship\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll

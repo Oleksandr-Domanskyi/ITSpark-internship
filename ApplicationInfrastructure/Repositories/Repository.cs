@@ -86,7 +86,7 @@ namespace ApplicationInfrastructure.Repositories
                     .Take(filters.perPage)
                     .ToList();
 
-                if (filters.SortDirection == null || filters.SortDirection == "Ascending")
+                if (filters.SortDirection == null || filters.SortDirection == SortDirection.Ascending.ToString())
                 {
                     return filteredItems
                         .OrderBy(x =>
@@ -102,7 +102,7 @@ namespace ApplicationInfrastructure.Repositories
                 }
             }
 
-            if (filters.SortDirection == null || filters.SortDirection == "Ascending")
+            if (filters.SortDirection == null || filters.SortDirection == SortDirection.Ascending.ToString())
             {
                 return await query
                     .Skip(skipAmount)
@@ -130,7 +130,7 @@ namespace ApplicationInfrastructure.Repositories
             {
                 query = specifications.ApplyInclude(query);
             }
-            return await query.FirstOrDefaultAsync(p => p.Id.ToString() == id.ToString());
+            return await query.FirstOrDefaultAsync(p => p.Id.ToString() == id!.ToString());
         }
 
         public override async Task<T> AddAsync(T entity, CancellationToken cancellationToken = new())

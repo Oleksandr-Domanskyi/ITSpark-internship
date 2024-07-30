@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {}
+    "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj": {
+    "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\FeZoX\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\obj\\",
+        "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
+        "outputPath": "d:\\ITSpark-internship\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\FeZoX\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -90,40 +84,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
+    "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+        "projectUniqueName": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
         "projectName": "ApplicationInfrastructure",
-        "projectPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\FeZoX\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\obj\\",
+        "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
+        "outputPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\FeZoX\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationCore\\ApplicationCore.csproj"
+              "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -198,7 +186,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,25 +1,16 @@
-﻿using ApplicationCore.Domain.Authorization;
-using ApplicationCore.Domain.Entity.Filters;
+﻿using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Entity.ItemProfile;
-using ApplicationInfrastructure.Data;
-using ApplicationInfrastructure.Services.ImageService;
 using Applications.CQRS.Command.Create;
 using Applications.CQRS.Command.Delete;
 using Applications.CQRS.Command.Update;
-using Applications.CQRS.Queries;
 using Applications.CQRS.Queries.GetAll;
 using Applications.CQRS.Queries.GetById;
 using Applications.CQRS.User.Queries.GetCurrentUser;
 using Applications.Dto;
 using Applications.Dto.Request;
-using Google.Apis.Translate.v2.Data;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
 using MvcRoute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers

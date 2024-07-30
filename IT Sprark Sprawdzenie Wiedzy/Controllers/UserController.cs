@@ -1,6 +1,8 @@
 using ApplicationCore.Dto.Request;
+using Applications.CQRS.User.Command.ForgotPassword;
 using Applications.CQRS.User.Command.Login;
 using Applications.CQRS.User.Command.Register;
+using Applications.CQRS.User.Command.ResetPassword;
 using Applications.CQRS.User.Queries.GetCurrentUser;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -43,6 +45,18 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         {
             var model = await _mediator.Send(new GetCurrentUserQuery());
             return Ok(model);
+        }
+        [HttpPost("ForgotPassword")]
+        public async Task<IActionResult> ForgotPassword([FromBody] string Email)
+        {
+            await _mediator.Send(new ForgotPasswordCommand(Email));
+            return Ok();
+        }
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResetPassword([FromQuery] ResetPasswordRequest request)
+        {
+            await _mediator.Send(new ResetPasswordCommand(request));
+            return Ok();
         }
     }
 }

@@ -12,9 +12,11 @@ namespace ApplicationInfrastructure.Contracts
 {
     public interface IUserContext
     {
-        Task<bool> loginAsync(UserRequest model);
-        Task registerAsync(UserRequest model);
-        Task<UserResponse> GetCurrentUser();
+        public Task<bool> loginAsync(UserRequest model);
+        public Task registerAsync(UserRequest model);
+        public Task<UserResponse> GetCurrentUser();
+        public Task ForgotPasswordAsync(string email);
+        public Task ResetPasswordAsync(ResetPasswordRequest request);
 
     }
 }

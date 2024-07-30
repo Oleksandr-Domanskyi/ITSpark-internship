@@ -33,3 +33,39 @@ C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\refin
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.pdb
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.genruntimeconfig.cache
 C:\Users\FeZoX\Desktop\It Spark\ApplicationInfrastructure\obj\Debug\net8.0\ref\ApplicationInfrastructure.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.deps.json
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.runtimeconfig.json
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationCore.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.csproj.AssemblyReference.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.AssemblyInfoInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.AssemblyInfo.cs
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.csproj.CoreCompileInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.sourcelink.json
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\Applicat.A5CEFEEF.Up2Date
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\refint\ApplicationInfrastructure.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.genruntimeconfig.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ref\ApplicationInfrastructure.dll
+D:\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.deps.json
+D:\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.runtimeconfig.json
+D:\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.dll
+D:\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+D:\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationCore.dll
+D:\ITSpark-internship\ApplicationInfrastructure\bin\Debug\net8.0\ApplicationCore.pdb
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.csproj.AssemblyReference.cache
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.AssemblyInfoInputs.cache
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.AssemblyInfo.cs
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.csproj.CoreCompileInputs.cache
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.sourcelink.json
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\Applicat.A5CEFEEF.Up2Date
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.dll
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\refint\ApplicationInfrastructure.dll
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.pdb
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ApplicationInfrastructure.genruntimeconfig.cache
+D:\ITSpark-internship\ApplicationInfrastructure\obj\Debug\net8.0\ref\ApplicationInfrastructure.dll
