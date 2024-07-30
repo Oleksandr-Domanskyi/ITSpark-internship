@@ -4680,42 +4680,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FeZoX\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Sasha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
+      "projectUniqueName": "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
       "projectName": "IT Sprark Sprawdzenie Wiedzy",
-      "projectPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
-      "packagesPath": "C:\\Users\\FeZoX\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\IT Sprark Sprawdzenie Wiedzy\\obj\\",
+      "projectPath": "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
+      "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
+      "outputPath": "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\FeZoX\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
-              "projectPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
+            "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
+              "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
             },
-            "c:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Applications.csproj": {
-              "projectPath": "c:\\Users\\FeZoX\\Desktop\\It Spark\\Applications\\Applications.csproj"
+            "d:\\ITSpark-internship\\Applications\\Applications.csproj": {
+              "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj"
             }
           }
         }
@@ -4773,7 +4766,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -4782,7 +4775,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EntityFramework 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "Пакет \"EntityFramework 6.1.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         "net8.0"
@@ -4792,7 +4785,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "Пакет \"Microsoft.AspNet.Identity.Core 2.2.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net8.0"
@@ -4802,7 +4795,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "Пакет \"Microsoft.AspNet.Identity.EntityFramework 2.2.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
       "targetGraphs": [
         "net8.0"

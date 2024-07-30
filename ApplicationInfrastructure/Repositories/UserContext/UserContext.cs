@@ -17,14 +17,17 @@ namespace ApplicationInfrastructure.Repositories.UserContext
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IEmailSender _emailSernder;
 
         public UserContext(UserManager<IdentityUser> userManager,
         SignInManager<IdentityUser> signInManager,
-        IHttpContextAccessor httpContextAccessor)
+        IHttpContextAccessor httpContextAccessor,
+        IEmailSender emailSernder)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _httpContextAccessor = httpContextAccessor;
+            _emailSernder = emailSernder;
         }
         public async Task<UserResponse> GetCurrentUser()
         {
@@ -60,6 +63,34 @@ namespace ApplicationInfrastructure.Repositories.UserContext
             {
                 await _userManager.AddToRoleAsync(user, UserRole.Customer.ToString());
             }
+        }
+        public async Task ResetPasswordAsync(ResetPasswordRequest request)
+        {
+            var user = await _userManager.FindByIdAsync(request.userId!);
+            if (user == null)
+            {
+                throw new Exception("Failed to reset password:  User not found!!!");
+            }
+            var result = await _userManager.ResetPasswordAsync(user, request.code!.Replace(" ","+"), request.newPassword);
+            if (!result.Succeeded)
+            {
+                throw new Exception("Failed to reset password: Problems with reset password!!!");
+            }
+        }
+        public async Task ForgotPasswordAsync(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                throw new Exception("User not found.");
+            }
+
+            var code = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var callbackUrl = $"http://localhost:5169/Account/ResetPassword?userId={user.Id}&code={code}";
+            var subject = "Reset Your Password";
+            var htmlMessage = $"Please reset your password by clicking here: <a href='{callbackUrl}'>link</a>";
+
+            await _emailSernder.SendEmailAsync(user.Email!, subject, htmlMessage);
         }
     }
 }

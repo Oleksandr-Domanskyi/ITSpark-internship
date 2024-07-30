@@ -300,3 +300,307 @@ c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Sy
 c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 c:\Users\FeZoX\Desktop\It Spark\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\appsettings.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.exe
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.deps.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.runtimeconfig.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Ardalis.Specification.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Ardalis.Specification.EntityFrameworkCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.AI.OpenAI.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Core.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Storage.Common.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\EntityFramework.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\FluentResults.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Api.Gax.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Auth.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Core.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Translate.v2.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Cloud.Translation.V2.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\HtmlAgilityPack.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Humanizer.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\MediatR.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\MediatR.Contracts.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Mono.TextTemplating.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Newtonsoft.Json.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Npgsql.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.API.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.ChatGpt.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.ClientModel.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.CodeDom.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Convention.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Hosting.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Runtime.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.IO.Hashing.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Management.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Memory.Data.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationInfrastructure.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationCore.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.AssemblyReference.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfoInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfo.cs
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.CoreCompileInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.sourcelink.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.IT Sprark Sprawdzenie Wiedzy.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.build.IT Sprark Sprawdzenie Wiedzy.props
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.IT Sprark Sprawdzenie Wiedzy.props
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.IT Sprark Sprawdzenie Wiedzy.props
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\scopedcss\bundle\IT Sprark Sprawdzenie Wiedzy.styles.css
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprar.8AB80519.Up2Date
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\refint\IT Sprark Sprawdzenie Wiedzy.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.genruntimeconfig.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\ref\IT Sprark Sprawdzenie Wiedzy.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\appsettings.Development.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\appsettings.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.exe
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.deps.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.runtimeconfig.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.pdb
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Ardalis.Specification.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Ardalis.Specification.EntityFrameworkCore.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.AI.OpenAI.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Core.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Azure.Storage.Common.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\EntityFramework.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\FluentResults.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Api.Gax.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Auth.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Core.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Apis.Translate.v2.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Google.Cloud.Translation.V2.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\HtmlAgilityPack.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Humanizer.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\MediatR.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Npgsql.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.API.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\OpenAI.ChatGpt.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.ClientModel.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.CodeDom.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.IO.Hashing.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Management.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationCore.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationInfrastructure.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\Applications.pdb
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\ApplicationCore.pdb
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.AssemblyReference.cache
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfoInputs.cache
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.AssemblyInfo.cs
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.csproj.CoreCompileInputs.cache
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cs
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.MvcApplicationPartsAssemblyInfo.cache
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.sourcelink.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.build.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.development.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.IT Sprark Sprawdzenie Wiedzy.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.build.IT Sprark Sprawdzenie Wiedzy.props
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.IT Sprark Sprawdzenie Wiedzy.props
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.IT Sprark Sprawdzenie Wiedzy.props
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\scopedcss\bundle\IT Sprark Sprawdzenie Wiedzy.styles.css
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprar.8AB80519.Up2Date
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\refint\IT Sprark Sprawdzenie Wiedzy.dll
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.pdb
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\IT Sprark Sprawdzenie Wiedzy.genruntimeconfig.cache
+D:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\obj\Debug\net8.0\ref\IT Sprark Sprawdzenie Wiedzy.dll

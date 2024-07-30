@@ -33,3 +33,39 @@ C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.dll
 C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\refint\Applications.dll
 C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\Applications.pdb
 C:\Users\FeZoX\Desktop\It Spark\Applications\obj\Debug\net8.0\ref\Applications.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\bin\Debug\net8.0\Applications.deps.json
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\bin\Debug\net8.0\Applications.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\bin\Debug\net8.0\Applications.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationCore.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationInfrastructure.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationCore.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.csproj.AssemblyReference.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.AssemblyInfoInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.AssemblyInfo.cs
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.csproj.CoreCompileInputs.cache
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.sourcelink.json
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applicat.B7D1A39B.Up2Date
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\refint\Applications.dll
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.pdb
+c:\Users\Sasha\Desktop\ITSpark-internship\Applications\obj\Debug\net8.0\ref\Applications.dll
+D:\ITSpark-internship\Applications\bin\Debug\net8.0\Applications.deps.json
+D:\ITSpark-internship\Applications\bin\Debug\net8.0\Applications.dll
+D:\ITSpark-internship\Applications\bin\Debug\net8.0\Applications.pdb
+D:\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationCore.dll
+D:\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationInfrastructure.dll
+D:\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationCore.pdb
+D:\ITSpark-internship\Applications\bin\Debug\net8.0\ApplicationInfrastructure.pdb
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.csproj.AssemblyReference.cache
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.AssemblyInfoInputs.cache
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.AssemblyInfo.cs
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.csproj.CoreCompileInputs.cache
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.sourcelink.json
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applicat.B7D1A39B.Up2Date
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.dll
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\refint\Applications.dll
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\Applications.pdb
+D:\ITSpark-internship\Applications\obj\Debug\net8.0\ref\Applications.dll

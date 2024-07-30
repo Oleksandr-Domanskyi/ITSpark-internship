@@ -15,9 +15,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 builder.Services.AddCore();
-// Add services to the container.
-
-
 
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
