@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Filters;
-using Ardalis.Specification;
+
 
 namespace ApplicationInfrastructure.Contracts
 {
