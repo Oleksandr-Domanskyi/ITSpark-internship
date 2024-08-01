@@ -32,7 +32,6 @@ namespace ApplicationInfrastructure.Services
         {
 
             var productImages = await FetchProductImagesAsync(products);
-
             var document = Document.Create(container =>
             {
                 container.Page(page =>
@@ -112,6 +111,7 @@ namespace ApplicationInfrastructure.Services
             return stream.ToArray();
         }
         private async Task<(ProductDto Product, IEnumerable<Stream> Images)[]> FetchProductImagesAsync(IEnumerable<ProductDto> products)
+
         {
             var productTasks = products.Select(async product =>
             {
