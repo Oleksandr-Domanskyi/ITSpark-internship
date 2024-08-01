@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Applications.Dto
 {
-    public class ItemProfileDto
+    public class ProductDto
     {
         public Guid Id { get; set; }
         public string? CreatedBy { get; set; }

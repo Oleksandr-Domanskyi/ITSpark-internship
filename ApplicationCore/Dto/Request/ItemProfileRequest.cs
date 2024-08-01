@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Applications.Dto.Request
 {
-    public class ItemProfileRequest
+    public class ProductRequest
     {
         public string Name { get; set; } = default!;
-        
+
         [Range(0.01, double.MaxValue, ErrorMessage = "Price must be greater than 0")]
         public double Price { get; set; } = default!;
         public string? Description { get; set; }

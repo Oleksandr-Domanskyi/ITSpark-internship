@@ -19,7 +19,6 @@ namespace ApplicationInfrastructure.Services
     {
         private readonly AutoSpecification<EntityType> specification = new AutoSpecification<EntityType>();
 
-
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IImageAzureService<EntityType, EntityDto> _imageAzureService;
@@ -29,7 +28,7 @@ namespace ApplicationInfrastructure.Services
         public EntityServices(IUnitOfWork unitOfWork, IMapper mapper,
          IImageAzureService<EntityType, EntityDto> imageAzureService,
          IOldImagePathService<EntityType> oldImagePathService,
-         IDeleteImageFromAzureEvent<EntityType,EntityDto> deleteImageFromAzureEvent) 
+         IDeleteImageFromAzureEvent<EntityType, EntityDto> deleteImageFromAzureEvent)
         {
             _imageAzureService = imageAzureService;
             _oldImagePathService = oldImagePathService;
@@ -87,7 +86,6 @@ namespace ApplicationInfrastructure.Services
 
             if (_imageAzureService.HaveImages(entity, out images))
             {
-                
                 //Delete Old Images
                 _deleteImageFromAzureEvent.ImageDeleteEvent(Domain!);
                 var oldImagePath = _oldImagePathService.GetOldImagePath(Domain!);

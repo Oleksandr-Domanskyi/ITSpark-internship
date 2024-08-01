@@ -40,7 +40,6 @@ namespace ApplicationInfrastructure.Repositories
                 query = specifications.ApplyInclude(query);
                 query = specifications.ApplyFilter(query,filters);
             }
-            
 
             if (!string.IsNullOrEmpty(filters.SearchBy))
             {
@@ -121,8 +120,6 @@ namespace ApplicationInfrastructure.Repositories
                     .ToListAsync(cancellationToken);
             }
         }
-
-
         public async Task<T?> GetByIdAsync<TId>(TId id, ISpecifications<T> specifications, CancellationToken cancellationToken = default)
         {
             IQueryable<T> query = _dbContext.Set<T>();
@@ -151,7 +148,6 @@ namespace ApplicationInfrastructure.Repositories
             await _dbContext.SaveChangesAsync(cancellationToken);
             return entity;
         }
-
         public async Task<T?> DeleteAsync(Guid id, CancellationToken cancellationToken)
         {
             var entity = await GetByIdAsync(id);
@@ -170,7 +166,6 @@ namespace ApplicationInfrastructure.Repositories
             }
             return entity!;
         }
-
         public async Task<List<T>> AddRange(List<T> entities, CancellationToken cancellationToken = default)
         {
             if (entities.Any())

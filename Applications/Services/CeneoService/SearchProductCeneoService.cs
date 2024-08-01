@@ -110,8 +110,6 @@ namespace Applications.Services.CeneoService
 
             return products;
         }
-
-
         private static bool IsExactMatch(string text, string productName)
         {
             if (string.Equals(text, productName))

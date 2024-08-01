@@ -69,11 +69,8 @@ namespace ApplicationInfrastructure.Repositories.UserContext
             var user = await _userManager.FindByIdAsync(request.userId!);
             if (user == null)
             {
-<<<<<<< HEAD
+
                 throw new Exception("Failed to reset password: User not found!!!");
-=======
-                throw new Exception("Failed to reset password:  User not found!!!");
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
             }
             var result = await _userManager.ResetPasswordAsync(user, request.code!.Replace(" ","+"), request.newPassword);
             if (!result.Succeeded)
