@@ -3814,11 +3814,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+      "projectUniqueName": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
       "projectName": "ApplicationInfrastructure",
-      "projectPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+      "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\",
+      "outputPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3833,8 +3833,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
+            "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
             }
           }
         }
@@ -3918,12 +3918,6 @@
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

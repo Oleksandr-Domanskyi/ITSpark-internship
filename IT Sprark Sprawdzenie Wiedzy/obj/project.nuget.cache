@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WvZV4xGkg0o=",
+  "dgSpecHash": "Ov/t03UOUMo=",
   "success": true,
-  "projectFilePath": "D:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
+  "projectFilePath": "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",

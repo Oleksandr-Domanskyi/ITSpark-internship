@@ -3020,11 +3020,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
+            "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
-              "projectPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
+            "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
+              "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
             }
           }
         }
@@ -3094,12 +3094,6 @@
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\ITSpark-internship\\Applications\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

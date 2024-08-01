@@ -1140,11 +1140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\ITSpark-internship\\ApplicationCore\\obj\\",
+      "outputPath": "d:\\ITSpark-internship\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1222,12 +1222,6 @@
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\ITSpark-internship\\ApplicationCore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",
