@@ -10,9 +10,10 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
+
 namespace Applications.Services.CeneoService
 {
-    public class SearchProductCeneoService:ISearchProductCeneoService
+    public class SearchProductCeneoService : ISearchProductCeneoService
     {
         private const string SearchUrlTemplate = "https://www.ceneo.pl/;szukaj-{0}";
         private const string BaseUrl = "https://www.ceneo.pl";
@@ -59,12 +60,12 @@ namespace Applications.Services.CeneoService
             else
             {
                 throw new Exception("Product not found on Ceneo.");
-            }            
+            }
         }
         private static List<CeneoProductInformation> GetProducts(HtmlDocument document)
         {
             var products = new List<CeneoProductInformation>();
-            
+
             // Get prices and details from section 1
             var products1 = GetProductsInSection(document, "//*[@id='click']/div[2]/section[1]/ul/li");
 
@@ -102,7 +103,7 @@ namespace Applications.Services.CeneoService
                             Details = details,
                             Price = CeneoProductInformationHandlers.ParsePrice(price),
                             Ocena = CeneoProductInformationHandlers.ParseOcena(ocena!),
-                            IlostOpinji =CeneoProductInformationHandlers.ParseIlostOpinji(ilostOpinji!)
+                            IlostOpinji = CeneoProductInformationHandlers.ParseIlostOpinji(ilostOpinji!)
                         });
                     }
                 }
@@ -110,8 +111,6 @@ namespace Applications.Services.CeneoService
 
             return products;
         }
-
-
         private static bool IsExactMatch(string text, string productName)
         {
             if (string.Equals(text, productName))

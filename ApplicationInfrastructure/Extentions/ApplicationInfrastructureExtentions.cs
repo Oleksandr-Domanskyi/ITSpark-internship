@@ -27,7 +27,7 @@ namespace ApplicationInfrastructure.Extention
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(configuration.GetConnectionString("ConnectionString")));
 
-            // Configuration
+            // Configuration reference with appsettings
             services.Configure<AzureOptions>(configuration.GetSection("Azure"));
             services.Configure<SmtpOptions>(configuration.GetSection("Smtp"));
 
@@ -42,14 +42,17 @@ namespace ApplicationInfrastructure.Extention
 
             // Add API services
             services.AddScoped<IUserContext, UserContext>();
+            services.AddScoped<IEmailSender, EmailSender>();
+            services.AddScoped<IPDFProductGeneratorService, PDFProductGeneratorService>();
+
 
             services.AddScoped(typeof(IEntityService<,>), typeof(EntityServices<,>));
             services.AddScoped(typeof(ISpecification<>), typeof(Specification<>));
             services.AddScoped(typeof(IImageAzureService<,>), typeof(ImageAzureService<,>));
             services.AddScoped(typeof(IOldImagePathService<>), typeof(OldImagePathService<>));
-            services.AddScoped(typeof(IDeleteImageFromAzureEvent<,>),typeof(DeleteImageFromAzureEvent<,>));
+            services.AddScoped(typeof(IDeleteImageFromAzureEvent<,>), typeof(DeleteImageFromAzureEvent<,>));
 
-            services.AddScoped<IEmailSender, EmailSender>();
+
         }
     }
 }

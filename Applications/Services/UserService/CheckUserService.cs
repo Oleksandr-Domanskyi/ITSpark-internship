@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using ApplicationCore.Domain.Authorization;
 using ApplicationCore.Domain.Entity;
 using ApplicationInfrastructure.Contracts;
 using ApplicationInfrastructure.Services;
-using System.Security.Claims;
 using ApplicationCore.Domain.Enum;
 using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Dto.Response;

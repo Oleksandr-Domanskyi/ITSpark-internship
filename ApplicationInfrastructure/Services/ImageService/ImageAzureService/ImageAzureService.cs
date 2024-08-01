@@ -18,10 +18,12 @@ namespace ApplicationInfrastructure.Services.ImageService
     where TDto : class
     {
         private readonly AzureOptions _azureoptions;
+        private readonly HttpClient _httpClient;
 
         public ImageAzureService(IOptions<AzureOptions> azureoptions)
         {
             _azureoptions = azureoptions.Value;
+            _httpClient = new HttpClient();
         }
 
         public bool HaveImages(TDto entity, out List<IFormFile> images)
@@ -132,6 +134,27 @@ namespace ApplicationInfrastructure.Services.ImageService
             }
 
             return uploadedImages;
+        }
+        public async Task<IEnumerable<Stream>> LoadImagesAsStreamAsync(IEnumerable<Image>? images)
+        {
+            if (images == null)
+                return default!;
+            var tasks = images
+                .Where(image => !string.IsNullOrEmpty(image.Path))
+                .Select(async image =>
+                {
+                    if (image == null)
+                        return null;
+
+                    var response = await _httpClient.GetAsync(image.Path);
+                    response.EnsureSuccessStatusCode();
+                    return await response.Content.ReadAsStreamAsync();
+
+                });
+
+            var imageStreams = await Task.WhenAll(tasks);
+            return imageStreams.Where(stream => stream != null)!;
+
         }
     }
 }

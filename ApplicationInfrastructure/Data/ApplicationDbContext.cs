@@ -1,6 +1,6 @@
 ﻿using ApplicationCore.Domain.Authorization;
 using ApplicationCore.Domain.Entity.Image;
-using ApplicationCore.Domain.Entity.ItemProfile;
+using ApplicationCore.Domain.Entity.Product;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +15,7 @@ namespace ApplicationInfrastructure.Data
 
         }
 
-        public DbSet<ItemProfile> ItemProfile { get; set; }
+        public DbSet<Product> ItemProfile { get; set; }
         public DbSet<Image> Image { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -32,7 +32,7 @@ namespace ApplicationInfrastructure.Data
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
-            modelBuilder.Entity<ItemProfile>()
+            modelBuilder.Entity<Product>()
             .Property(p => p.CreatedBy)
             .HasColumnName("CreatedBy")
             .HasColumnType("text");
@@ -47,9 +47,9 @@ namespace ApplicationInfrastructure.Data
                 entity.Property(e => e.Path)
                     .IsRequired()
                     .HasColumnType("text");
-                    
+
                 entity.HasKey(e => e.Id);
-                entity.HasOne<ItemProfile>()
+                entity.HasOne<Product>()
                     .WithMany(p => p.images)
                     .HasForeignKey(i => i.ItemProfileId)
                     .OnDelete(DeleteBehavior.Cascade);

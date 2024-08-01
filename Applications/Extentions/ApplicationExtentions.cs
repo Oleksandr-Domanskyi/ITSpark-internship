@@ -1,7 +1,8 @@
 ﻿using ApplicationCore.Domain.Authorization;
-using ApplicationCore.Domain.Entity.ItemProfile;
+using ApplicationCore.Domain.Entity.Product;
 using ApplicationCore.Dto;
 using ApplicationCore.Dto.Response;
+using ApplicationInfrastructure.Contracts;
 using Applications.CQRS.User.Command.Register;
 using Applications.CQRS.User.Queries.GetCurrentUser;
 using Applications.Dto;
@@ -23,11 +24,13 @@ namespace Applications.Extentions
     {
         public static void AddApplication(this IServiceCollection services)
         {
-            
+
             MediatrServices(services);
 
             services.AddTransient<ISearchProductCeneoService, SearchProductCeneoService>();
-            services.AddTransient(typeof(ICheckUserService<,>),typeof(CheckUserService<,>));
+
+
+            services.AddTransient(typeof(ICheckUserService<,>), typeof(CheckUserService<,>));
         }
 
         private static void MediatrServices(IServiceCollection services)
@@ -40,10 +43,10 @@ namespace Applications.Extentions
             });
 
             // Add All Entities
-            MediatRHandler.MediatRHandler.MediatrRegisterHandler<ItemProfile, ItemProfileDto, ItemProfileRequest>(services);
+            MediatRHandler.MediatRHandler.MediatrRegisterHandler<Product, ProductDto, ProductRequest>(services);
         }
 
 
-       
+
     }
 }

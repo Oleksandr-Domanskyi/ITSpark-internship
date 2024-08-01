@@ -1,6 +1,6 @@
 ﻿using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Filters;
-using ApplicationCore.Domain.Entity.ItemProfile;
+using ApplicationCore.Domain.Entity.Product;
 using Applications.Dto;
 using Applications.Dto.Request;
 using AutoMapper;
@@ -16,9 +16,9 @@ namespace Applications.Mapper
     {
         public ApplicationMapperProfile()
         {
-            CreateMap<ItemProfile, ItemProfileDto>().ReverseMap();
+            CreateMap<Product, ProductDto>().ReverseMap();
 
-            CreateMap<ItemProfileRequest, ItemProfile>()
+            CreateMap<ProductRequest, Product>()
             .ForMember(x => x.images, dest => dest.Ignore());
 
             CreateMap<Filters, FiltersOption>().ReverseMap();

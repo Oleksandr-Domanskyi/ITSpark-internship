@@ -1,5 +1,5 @@
 ﻿using ApplicationCore.Domain.Authorization;
-using ApplicationCore.Domain.Entity.ItemProfile;
+using ApplicationCore.Domain.Entity.Product;
 using ApplicationCore.Domain.Enum;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,7 +30,7 @@ namespace ApplicationInfrastructure.Data.Seed
             {
                 if (!_dbContext.ItemProfile.Any())
                 {
-                    var SeedModel = new ItemProfile
+                    var SeedModel = new Product
                     {
                         Name = "MrBeast",
                         Description = "The statuette of MrBeast",

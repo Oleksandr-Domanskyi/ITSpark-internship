@@ -825,6 +825,51 @@
           }
         }
       },
+      "QuestPDF/2024.7.1": {
+        "runtime": {
+          "lib/net8.0/QuestPDF.dll": {
+            "assemblyVersion": "2024.7.1.0",
+            "fileVersion": "2024.7.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libQuestPdfSkia.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/QuestPdfSkia.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1036,7 +1081,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.6",
           "Microsoft.AspNetCore.Identity.UI": "8.0.7",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "QuestPDF": "2024.7.1"
         },
         "runtime": {
           "ApplicationInfrastructure.dll": {}
@@ -1527,6 +1573,13 @@
       "sha512": "sha512-rTgjwSzfFbm1F1qc248LBjUhARKSfafj/4Fmgch3FG8qz/KHxH+JlQ3CmsZD0K80EyQEb41Vts0U2JEthsbVaA==",
       "path": "openai.chatgpt/3.3.0",
       "hashPath": "openai.chatgpt.3.3.0.nupkg.sha512"
+    },
+    "QuestPDF/2024.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hA2P6rnocq1RZPk6G/IGm6oPFDymd/afLR0mWSOpz3nct2/C6xSJVD7FByWA4sFUqxabqSc+qGg2KChlDMSWeA==",
+      "path": "questpdf/2024.7.1",
+      "hashPath": "questpdf.2024.7.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
