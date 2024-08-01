@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
         "outputPath": "D:\\ITSpark-internship\\ApplicationCore\\obj\\",
-=======
-    "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj": {}
-  },
-  "projects": {
-    "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
-        "projectName": "ApplicationCore",
-        "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\ITSpark-internship\\ApplicationCore\\obj\\",
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -102,7 +88,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -111,16 +96,6 @@
         "projectPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
         "outputPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\",
-=======
-    "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
-        "projectName": "ApplicationInfrastructure",
-        "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\",
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -135,13 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
                 "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
-=======
-              "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
               }
             }
           }
@@ -198,6 +168,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.7.1, )"
             }
           },
           "imports": [
@@ -220,7 +194,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\ITSpark-internship\\Applications\\Applications.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -229,16 +202,6 @@
         "projectPath": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
         "outputPath": "D:\\ITSpark-internship\\Applications\\obj\\",
-=======
-    "d:\\ITSpark-internship\\Applications\\Applications.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
-        "projectName": "Applications",
-        "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
-        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\ITSpark-internship\\Applications\\obj\\",
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -253,19 +216,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
                 "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
               },
               "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
                 "projectPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
-=======
-              "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
-              },
-              "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
-                "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
               }
             }
           }
@@ -334,7 +289,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -343,16 +297,6 @@
         "projectPath": "D:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
         "outputPath": "D:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\obj\\",
-=======
-    "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
-        "projectName": "IT Sprark Sprawdzenie Wiedzy",
-        "projectPath": "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\IT Sprark Sprawdzenie Wiedzy.csproj",
-        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\ITSpark-internship\\IT Sprark Sprawdzenie Wiedzy\\obj\\",
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -367,19 +311,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
                 "projectPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
               },
               "D:\\ITSpark-internship\\Applications\\Applications.csproj": {
                 "projectPath": "D:\\ITSpark-internship\\Applications\\Applications.csproj"
-=======
-              "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
-                "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
-              },
-              "d:\\ITSpark-internship\\Applications\\Applications.csproj": {
-                "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj"
->>>>>>> 284e059591eebcb400ddfa46ee23b441b67ca920
               }
             }
           }

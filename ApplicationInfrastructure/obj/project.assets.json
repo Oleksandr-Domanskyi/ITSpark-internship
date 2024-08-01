@@ -3814,11 +3814,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+      "projectUniqueName": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
       "projectName": "ApplicationInfrastructure",
-      "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
+      "projectPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\",
+      "outputPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3833,8 +3833,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
+            "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
             }
           }
         }

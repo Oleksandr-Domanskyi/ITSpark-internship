@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {}
+    "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\ITSpark-internship\\ApplicationCore\\obj\\",
+        "outputPath": "D:\\ITSpark-internship\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"

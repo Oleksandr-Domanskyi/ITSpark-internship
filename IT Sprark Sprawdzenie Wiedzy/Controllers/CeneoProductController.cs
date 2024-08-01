@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
 {
     [ApiController]
@@ -14,7 +15,7 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
             _mediator = mediator;
         }
         [HttpGet("api/ceneo/Product")]
-        public IActionResult GetPriceByCeneo([FromQuery]string productName)
+        public IActionResult GetPriceByCeneo([FromQuery] string productName)
         {
             var responce = _mediator.Send(new GetPriceByCeneoQuery(productName));
             return Ok(responce);

@@ -3001,11 +3001,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
+      "projectUniqueName": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
       "projectName": "Applications",
-      "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
+      "projectPath": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "d:\\ITSpark-internship\\Applications\\obj\\",
+      "outputPath": "D:\\ITSpark-internship\\Applications\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3020,11 +3020,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "d:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
+            "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "D:\\ITSpark-internship\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
-              "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
+            "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
+              "projectPath": "D:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
             }
           }
         }
