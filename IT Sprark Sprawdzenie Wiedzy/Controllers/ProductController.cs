@@ -33,7 +33,7 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         [Authorize]
         public async Task<IActionResult> GenerateListProductPDF()
         {
-            byte[] fileContent = await _mediator.Send(new GenerateProductListPDFQuery());
+            var fileContent = await _mediator.Send(new GenerateProductListPDFQuery());
 
             return File(fileContent, "application/pdf", "ProductList.pdf");
         }

@@ -37,7 +37,7 @@ namespace ApplicationInfrastructure.Extention
             // Add unit of work
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            //Add Mapper
+            // Add Mapper
             services.AddAutoMapper(typeof(ApplicationMapperProfile));
 
             // Add API services

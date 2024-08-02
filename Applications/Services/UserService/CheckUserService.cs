@@ -55,18 +55,18 @@ namespace Applications.Services.UserService
 
             return createdByUserId.ToString() == CurrentUser.Id || CurrentUser.Role!.Contains(UserRole.Admin.ToString());
         }
-        public bool CheckAdminAccess(FiltersOption option, out Filters filtersOption)
-        {            
-            filtersOption = _mapper.Map<Filters>(option);
+        public bool CheckAdminAccess(FiltersOption option, out Filters filters)
+        {
+            filters = _mapper.Map<Filters>(option);
             var user = GetUser().Result;
             if (user.Roles!.Contains(UserRole.Admin.ToString()))
             {
-                filtersOption.CreatedBy = user.id;
-                filtersOption.Roles = UserRole.Admin.ToString();
+                filters.CreatedBy = user.id;
+                filters.Roles = UserRole.Admin.ToString();
                 return true;
             }
-            filtersOption.CreatedBy = user.id;
-            filtersOption.Roles = UserRole.Customer.ToString();
+            filters.CreatedBy = user.id;
+            filters.Roles = UserRole.Customer.ToString();
             return false;
         }
     }

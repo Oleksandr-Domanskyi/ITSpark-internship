@@ -194,14 +194,14 @@
         }
       }
     },
-    "D:\\ITSpark-internship\\Applications\\Applications.csproj": {
+    "d:\\ITSpark-internship\\Applications\\Applications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
+        "projectUniqueName": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
         "projectName": "Applications",
-        "projectPath": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
+        "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\ITSpark-internship\\Applications\\obj\\",
+        "outputPath": "d:\\ITSpark-internship\\Applications\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -314,8 +314,8 @@
               "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
                 "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
               },
-              "D:\\ITSpark-internship\\Applications\\Applications.csproj": {
-                "projectPath": "D:\\ITSpark-internship\\Applications\\Applications.csproj"
+              "d:\\ITSpark-internship\\Applications\\Applications.csproj": {
+                "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj"
               }
             }
           }

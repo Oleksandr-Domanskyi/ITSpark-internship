@@ -21,16 +21,13 @@ namespace ApplicationInfrastructure.Services
 
         private readonly IImageAzureService<Product, ProductDto> _imageAzureService;
 
-
         public PDFProductGeneratorService(IImageAzureService<Product, ProductDto> imageAzureService)
         {
-
             _imageAzureService = imageAzureService;
         }
 
         public async Task<byte[]> PDFGenerateAsync(IEnumerable<ProductDto> products)
         {
-
             var productImages = await FetchProductImagesAsync(products);
             var document = Document.Create(container =>
             {
@@ -58,60 +55,75 @@ namespace ApplicationInfrastructure.Services
                                 var product = productImage.Product;
                                 var images = productImage.Images;
 
-                                column.Item().Column(col =>
+                                column.Item().Element(container =>
                                 {
-                                    col.Item().Row(row =>
+                                    container.ShowEntire().Column(col =>
                                     {
-                                        row.RelativeItem().Text($"{index}. {product.Name ?? "No Name"}")
-                                            .SemiBold().FontSize(16).FontColor(Colors.Black);
-
-                                        row.RelativeItem().AlignRight().Text($"${product.Price:F2}")
-                                            .FontSize(14).FontColor(Colors.Black);
-                                    });
-
-                                    col.Item().Text($"Category: {product.Category ?? "No Category"}")
-                                        .FontSize(14).FontColor(Colors.Black);
-
-                                    col.Item().Text($"Description: {product.Description ?? "No Description"}")
-                                        .FontSize(10).FontColor(Colors.Black);
-
-                                    col.Item().Text("Images:")
-                                        .FontSize(14).FontColor(Colors.Black);
-
-
-                                    if (images.Any())
-                                    {
-                                        col.Item().Row(imageRow =>
+                                        col.Item().Row(row =>
                                         {
-                                            foreach (var imageStream in images)
-                                            {
-                                                imageRow.RelativeItem()
-                                                    .Image(imageStream)
-                                                    .FitArea();
-                                            }
+                                            row.RelativeItem().Text($"{index}. {product.Name ?? "No Name"}")
+                                                .SemiBold().FontSize(16).FontColor(Colors.Black);
+
+                                            row.RelativeItem().AlignRight().Text($"${product.Price:F2}")
+                                                .FontSize(14).FontColor(Colors.Black);
                                         });
-                                    }
-                                    else
-                                    {
-                                        col.Item().Text("No Images Available")
-                                            .FontSize(12).FontColor(Colors.Black);
-                                    }
-                                    column.Item().Element(container => container
-                                                                        .Height(1)
-                                                                        .Width(480)
-                                                                        .Background(Colors.Black));
+
+                                        col.Item().Text($"Category: {product.Category ?? "No Category"}")
+                                            .FontSize(14).FontColor(Colors.Black);
+
+                                        col.Item().Text($"Description: {product.Description ?? "No Description"}")
+                                            .FontSize(10).FontColor(Colors.Black);
+
+                                        col.Item().Text("Images:")
+                                            .FontSize(14).FontColor(Colors.Black);
+
+                                        if (images.Any())
+                                        {
+                                            col.Item().Row(imageRow =>
+                                            {
+                                                foreach (var imageStream in images)
+                                                {
+                                                    imageRow.RelativeItem()
+                                                        .Image(imageStream)
+                                                        .FitArea();
+                                                }
+                                            });
+                                        }
+                                        else
+                                        {
+                                            col.Item().Text("No Images Available")
+                                                .FontSize(12).FontColor(Colors.Black);
+                                        }
+
+                                        col.Item().Element(divider => divider
+                                                                      .Height(2)
+                                                                      .Width(480)
+                                                                      .Background(Colors.Black));
+                                        col.Spacing(20);
+
+                                    });
                                 });
+
                                 index++;
                             }
                         });
+                    page.Footer()
+                        .AlignCenter()
+                        .Text(x =>
+                        {
+                            x.CurrentPageNumber();
+                            x.Span(" / ");
+                            x.TotalPages();
+                        });
                 });
             });
+
             using var stream = new MemoryStream();
             document.GeneratePdf(stream);
             return stream.ToArray();
         }
-        private async Task<(ProductDto Product, IEnumerable<Stream> Images)[]> FetchProductImagesAsync(IEnumerable<ProductDto> products)
 
+        private async Task<(ProductDto Product, IEnumerable<Stream> Images)[]> FetchProductImagesAsync(IEnumerable<ProductDto> products)
         {
             var productTasks = products.Select(async product =>
             {
@@ -121,6 +133,5 @@ namespace ApplicationInfrastructure.Services
 
             return await Task.WhenAll(productTasks);
         }
-
     }
 }
