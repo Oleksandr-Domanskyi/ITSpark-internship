@@ -96,11 +96,13 @@ namespace ApplicationInfrastructure.Services.ImageService
 
         public async Task<List<Image>> UploadImagesToAzure(List<IFormFile> images)
         {
-            List<Image> uploadedImages = new List<Image>();
+            var uploadedImages = new List<Image>();
+
             if (images == null)
             {
                 return uploadedImages;
             }
+
             foreach (var image in images)
             {
                 var fileExtension = Path.GetExtension(image.FileName);
@@ -115,26 +117,44 @@ namespace ApplicationInfrastructure.Services.ImageService
                         new BlobContainerClient(_azureoptions.ConnectionString, _azureoptions.Container);
                     BlobClient blobClient = blobContainerClient.GetBlobClient(uniqueName);
 
+                    var repit = 0;
+                    var IsSuccess = false;
 
-                    await blobClient.UploadAsync(imageUploadStream, new BlobUploadOptions()
+                    while (!IsSuccess && repit < 3)
                     {
-                        HttpHeaders = new BlobHttpHeaders
+                        imageUploadStream.Position = 0;
+
+                        var result = await blobClient.UploadAsync(imageUploadStream, new BlobUploadOptions()
                         {
-                            ContentType = image.ContentType,
-                        }
-                    }, cancellationToken: default);
+                            HttpHeaders = new BlobHttpHeaders
+                            {
+                                ContentType = image.ContentType,
+                            }
+                        }, cancellationToken: default);
 
-                    var uploadedImage = new Image
+                        IsSuccess = !result.GetRawResponse().IsError;
+                        repit++;
+                    }
+
+                    if (IsSuccess)
                     {
-                        Path = $"{_azureoptions.BlobURL}/{uniqueName}",
-                    };
+                        var uploadedImage = new Image
+                        {
+                            Path = $"{_azureoptions.BlobURL}/{uniqueName}",
+                        };
 
-                    uploadedImages.Add(uploadedImage);
+                        uploadedImages.Add(uploadedImage);
+                    }
+                    else
+                    {
+                        throw new Exception("Upload images was Failed!!!");
+                    }
                 }
             }
 
             return uploadedImages;
         }
+
         public async Task<IEnumerable<Stream>> LoadImagesAsStreamAsync(IEnumerable<Image>? images)
         {
             if (images == null)

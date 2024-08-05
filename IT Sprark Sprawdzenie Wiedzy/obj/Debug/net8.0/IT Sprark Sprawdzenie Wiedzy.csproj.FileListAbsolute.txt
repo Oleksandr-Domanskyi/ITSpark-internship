@@ -631,3 +631,6 @@ d:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\runtimes\osx
 d:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
 d:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
 d:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+d:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\FluentValidation.dll
+d:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+d:\ITSpark-internship\IT Sprark Sprawdzenie Wiedzy\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

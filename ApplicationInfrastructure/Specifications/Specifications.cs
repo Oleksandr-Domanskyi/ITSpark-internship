@@ -33,9 +33,8 @@ namespace ApplicationInfrastructure.Specifications
             {
                 query = query.Where(item => item.CreatedBy == filters.CreatedBy);
             }
-            return query;         
+            return query;
         }
-
 
         private bool IsIncludedNavigationProperty(PropertyInfo property)
         {

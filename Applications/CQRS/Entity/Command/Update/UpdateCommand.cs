@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Applications.CQRS.Command.Update
 {
-    public class UpdateCommand<TDomain,TDto, TReq> : IRequest
+    public class UpdateCommand<TDomain, TDto, TReq> : IRequest
      where TDomain : Entity<Guid>
      where TReq : class
      where TDto : class

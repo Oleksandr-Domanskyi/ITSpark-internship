@@ -9,6 +9,7 @@ using Applications.Dto;
 using Applications.Dto.Request;
 using Applications.Services.CeneoService;
 using Applications.Services.UserService;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -41,6 +42,7 @@ namespace Applications.Extentions
                 cfg.RegisterServicesFromAssemblyContaining<Mediator>();
                 cfg.RegisterServicesFromAssemblyContaining<RegisterUserCommand>();
             });
+
 
             // Add All Entities
             MediatRHandler.MediatRHandler.MediatrRegisterHandler<Product, ProductDto, ProductRequest>(services);

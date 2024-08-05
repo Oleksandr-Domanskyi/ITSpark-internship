@@ -43,11 +43,9 @@ namespace ApplicationInfrastructure.Data
                 entity.Property(e => e.CreatedBy)
                     .HasColumnName("CreatedBy")
                     .HasColumnType("text");
-
                 entity.Property(e => e.Path)
                     .IsRequired()
                     .HasColumnType("text");
-
                 entity.HasKey(e => e.Id);
                 entity.HasOne<Product>()
                     .WithMany(p => p.images)

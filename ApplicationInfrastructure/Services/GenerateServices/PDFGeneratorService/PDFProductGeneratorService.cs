@@ -122,7 +122,6 @@ namespace ApplicationInfrastructure.Services
             document.GeneratePdf(stream);
             return stream.ToArray();
         }
-
         private async Task<(ProductDto Product, IEnumerable<Stream> Images)[]> FetchProductImagesAsync(IEnumerable<ProductDto> products)
         {
             var productTasks = products.Select(async product =>

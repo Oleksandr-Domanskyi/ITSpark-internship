@@ -36,22 +36,20 @@ namespace ApplicationInfrastructure.Services
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
-
         public async Task<Result<EntityType>> AddEntityAsync(EntityDto entity)
         {
-            List<IFormFile> images;
-            var Domain = _mapper.Map<EntityType>(entity);
+            var domainEntity = _mapper.Map<EntityType>(entity);
 
-            if (_imageAzureService.HaveImages(entity, out images))
+            if (_imageAzureService.HaveImages(entity, out List<IFormFile> images))
             {
-                var Path = await _imageAzureService.UploadImagesToAzure(images);
-                Domain = _imageAzureService.SetImagePath(Domain, Path);
+                var imagePaths = await _imageAzureService.UploadImagesToAzure(images);
+                domainEntity = _imageAzureService.SetImagePath(domainEntity, imagePaths);
             }
-            var responce = await _unitOfWork.Repository<EntityType>().AddAsync(Domain);
+            var response = await _unitOfWork.Repository<EntityType>().AddAsync(domainEntity);
             await _unitOfWork.SaveChangesAsync();
-            return Result.Ok(responce);
-        }
 
+            return Result.Ok(response);
+        }
         public async Task<Result<EntityType>> DeleteAsync(Guid id)
         {
             var entity = await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification);
@@ -77,14 +75,11 @@ namespace ApplicationInfrastructure.Services
             return Result.Ok(_mapper.Map<IEnumerable<EntityDto>>(entity));
         }
 
-
         public async Task<Result<EntityType>> UpdateAsync(EntityDto entity, Guid id)
         {
-            List<IFormFile> images;
-            var specification = new AutoSpecification<EntityType>();
             var Domain = await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification);
 
-            if (_imageAzureService.HaveImages(entity, out images))
+            if (_imageAzureService.HaveImages(entity, out List<IFormFile> images))
             {
                 //Delete Old Images
                 _deleteImageFromAzureEvent.ImageDeleteEvent(Domain!);

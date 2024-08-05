@@ -194,14 +194,14 @@
         }
       }
     },
-    "d:\\ITSpark-internship\\Applications\\Applications.csproj": {
+    "D:\\ITSpark-internship\\Applications\\Applications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
+        "projectUniqueName": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
         "projectName": "Applications",
-        "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
+        "projectPath": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\ITSpark-internship\\Applications\\obj\\",
+        "outputPath": "D:\\ITSpark-internship\\Applications\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -243,6 +243,14 @@
             "Azure.AI.OpenAI": {
               "target": "Package",
               "version": "[2.0.0-beta.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
             },
             "Google.Cloud.Translation.V2": {
               "target": "Package",
@@ -314,8 +322,8 @@
               "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj": {
                 "projectPath": "d:\\ITSpark-internship\\ApplicationInfrastructure\\ApplicationInfrastructure.csproj"
               },
-              "d:\\ITSpark-internship\\Applications\\Applications.csproj": {
-                "projectPath": "d:\\ITSpark-internship\\Applications\\Applications.csproj"
+              "D:\\ITSpark-internship\\Applications\\Applications.csproj": {
+                "projectPath": "D:\\ITSpark-internship\\Applications\\Applications.csproj"
               }
             }
           }

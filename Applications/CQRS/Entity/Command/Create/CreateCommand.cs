@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FluentValidation;
 
 namespace Applications.CQRS.Command.Create
 {
-    public class CreateCommand<TDomain,TReq>:IRequest
+    public class CreateCommand<TDomain, TReq> : IRequest
         where TDomain : Entity<Guid>
         where TReq : class
     {

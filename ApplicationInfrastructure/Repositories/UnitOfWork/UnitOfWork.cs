@@ -10,10 +10,9 @@ using System.Threading.Tasks;
 
 namespace ApplicationInfrastructure.Repositories.UnitOfWork
 {
-    public class UnitOfWork:IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _dbContext;
-
         private readonly Hashtable _repositories = new();
         private bool _disposed;
 
