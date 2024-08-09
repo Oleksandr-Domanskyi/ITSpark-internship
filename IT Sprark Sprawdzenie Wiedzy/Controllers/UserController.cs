@@ -30,14 +30,10 @@ namespace IT_Sprark_Sprawdzenie_Wiedzy.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserRequest model)
         {
-            if (await _mediator.Send(new LoginUserCommand(model)))
-            {
-                return Ok("Logined was successful");
-            }
-            else
-            {
-                return BadRequest("Login was Failed!!!");
-            }
+            return await _mediator.Send(new LoginUserCommand(model))
+                ? Ok("Logined was successful")
+                : BadRequest("Login was Failed!!!");
+
         }
         [Authorize(Roles = "Admin")]
         [HttpGet("CurrentUser")]

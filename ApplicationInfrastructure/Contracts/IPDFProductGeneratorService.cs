@@ -9,6 +9,6 @@ namespace ApplicationInfrastructure.Contracts
 {
     public interface IPDFProductGeneratorService
     {
-        Task<byte[]> PDFProductGenerateAsync(IEnumerable<ProductDto> products);
+        public Task<byte[]> PDFProductGenerateAsync(IEnumerable<ProductDto> products);
     }
 }

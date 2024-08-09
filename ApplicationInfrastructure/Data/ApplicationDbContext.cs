@@ -32,29 +32,6 @@ namespace ApplicationInfrastructure.Data
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
-            modelBuilder.Entity<Product>()
-            .Property(p => p.CreatedBy)
-            .HasColumnName("CreatedBy")
-            .HasColumnType("text");
-
-            modelBuilder.Entity<Image>(entity =>
-            {
-                entity.ToTable("Image", "identity");
-                entity.Property(e => e.CreatedBy)
-                    .HasColumnName("CreatedBy")
-                    .HasColumnType("text");
-                entity.Property(e => e.Path)
-                    .IsRequired()
-                    .HasColumnType("text");
-                entity.HasKey(e => e.Id);
-                entity.HasOne<Product>()
-                    .WithMany(p => p.images)
-                    .HasForeignKey(i => i.ItemProfileId)
-                    .OnDelete(DeleteBehavior.Cascade);
-            });
-
-
-
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -10,8 +10,8 @@ namespace ApplicationInfrastructure.Contracts
 {
     public interface ISpecifications<T> where T : Entity<Guid>
     {
-        IQueryable<T> ApplyInclude(IQueryable<T> query);
-        IQueryable<T> ApplyFilter(IQueryable<T> query, Filters filters);
+        public IQueryable<T> ApplyInclude(IQueryable<T> query);
+        public IQueryable<T> ApplyFilter(IQueryable<T> query, Filters filters);
 
     }
 }

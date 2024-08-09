@@ -7,6 +7,6 @@ namespace ApplicationInfrastructure.Contracts
 {
     public interface IEmailSender
     {
-        Task SendEmailAsync(string recipientEmail, string subject, string htmlMessage);
+        public Task SendEmailAsync(string recipientEmail, string subject, string htmlMessage);
     }
 }

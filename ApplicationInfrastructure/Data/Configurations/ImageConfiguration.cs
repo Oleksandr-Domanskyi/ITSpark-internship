@@ -13,7 +13,7 @@ namespace ApplicationInfrastructure.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Image> builder)
         {
-            builder.ToTable("Image", "identity");
+            builder.ToTable("Image");
 
             builder.Property(e => e.CreatedBy)
                 .HasColumnName("CreatedBy")

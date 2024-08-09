@@ -6,11 +6,11 @@ using ApplicationCore.Domain.Entity;
 
 namespace Applications.Contracts
 {
-    public interface IDeleteImageFromAzureEvent<Entity,EntityDto>
+    public interface IDeleteImageFromAzureEvent<Entity, EntityDto>
     where Entity : Entity<Guid>
-    where EntityDto: class
+    where EntityDto : class
     {
-        event Func<Entity, Task> OnDeleteImage;
-        void ImageDeleteEvent(Entity entity);
+        public event Func<Entity, Task> OnDeleteImage;
+        public void ImageDeleteEvent(Entity entity);
     }
 }
