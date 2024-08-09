@@ -6,6 +6,7 @@ using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Entity.Product;
 using ApplicationInfrastructure.Contracts;
 using ApplicationInfrastructure.Services;
+using Applications.Contracts;
 using Applications.Dto;
 using Applications.Services.UserService;
 using FluentResults;
@@ -18,29 +19,23 @@ namespace Applications.CQRS.GeneratePDF
     {
         private readonly IPDFProductGeneratorService _generateProductPDFService;
         private readonly IEntityService<Product, ProductDto> _entityService;
-        private readonly ICheckUserService<Product, ProductDto> _checkUserService;
+        private readonly IUserAccessManagerService<Product, ProductDto> _userAccessManagerService;
 
         public GeneratePDFQueryHandler(IPDFProductGeneratorService generateProductPDFService,
                                        IEntityService<Product, ProductDto> entityService,
-                                       ICheckUserService<Product, ProductDto> checkUserService)
+                                       IUserAccessManagerService<Product, ProductDto> checkUserService)
         {
-            _checkUserService = checkUserService;
+            _userAccessManagerService = checkUserService;
             _generateProductPDFService = generateProductPDFService;
             _entityService = entityService;
         }
 
         public async Task<byte[]> Handle(GenerateProductListPDFQuery request, CancellationToken cancellationToken)
         {
-            Result<IEnumerable<ProductDto>> model;
-            if (_checkUserService.CheckAdminAccess(new FiltersOption(), out var updateFilters))
-            {
-                model = await _entityService.GetListAsync(updateFilters);
-            }
-            else
-            {
-                model = await _entityService.GetListAsync(updateFilters);
-            }
-            return await _generateProductPDFService.PDFGenerateAsync(model.Value);
+            var generatedFilters = await _userAccessManagerService.GenerateFiltersBasedOnUser(new FiltersOption());
+            var model = (await _entityService.GetListAsync(generatedFilters)).Value;
+
+            return await _generateProductPDFService.PDFProductGenerateAsync(model);
 
         }
     }

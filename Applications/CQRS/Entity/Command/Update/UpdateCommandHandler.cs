@@ -1,6 +1,7 @@
 ﻿using ApplicationCore.Domain.Authorization;
 using ApplicationCore.Domain.Entity;
 using ApplicationInfrastructure.Services;
+using Applications.Contracts;
 using Applications.Services.UserService;
 using AutoMapper;
 using MediatR;
@@ -19,16 +20,16 @@ namespace Applications.CQRS.Command.Update
         where TDto : class
     {
         private readonly IEntityService<TDomain, TReq> _service;
-        private readonly ICheckUserService<TDomain, TDto> _checkUserService;
+        private readonly IUserAccessManagerService<TDomain, TDto> _accessManagerService;
 
-        public UpdateCommandHandler(IEntityService<TDomain, TReq> service, ICheckUserService<TDomain, TDto> checkUserService)
+        public UpdateCommandHandler(IEntityService<TDomain, TReq> service, IUserAccessManagerService<TDomain, TDto> checkUserService)
         {
             _service = service;
-            _checkUserService = checkUserService;
+            _accessManagerService = checkUserService;
         }
-        public async Task Handle(UpdateCommand<TDomain,TDto, TReq> request, CancellationToken cancellationToken)
+        public async Task Handle(UpdateCommand<TDomain, TDto, TReq> request, CancellationToken cancellationToken)
         {
-            if (await _checkUserService.CheckUserAsync(request.Id))
+            if (await _accessManagerService.CheckUserAccessAsync(request.Id))
             {
                 await _service.UpdateAsync(request.request, request.Id);
             }

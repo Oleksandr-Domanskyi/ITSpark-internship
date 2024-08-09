@@ -3,6 +3,7 @@ using ApplicationCore.Domain.Entity;
 using ApplicationCore.Domain.Entity.Filters;
 using ApplicationCore.Domain.Enum;
 using ApplicationInfrastructure.Services;
+using Applications.Contracts;
 using Applications.Services.UserService;
 using AutoMapper;
 using MediatR;
@@ -20,20 +21,18 @@ namespace Applications.CQRS.Queries.GetAll
         where TDto : class
     {
         private readonly IEntityService<TDomain, TDto> _service;
-        private readonly ICheckUserService<TDomain, TDto> _checkUserService;
+        private readonly IUserAccessManagerService<TDomain, TDto> _checkUserService;
 
-        public GetAllQueryHandler(IEntityService<TDomain, TDto> service, ICheckUserService<TDomain, TDto> checkUserService)
+        public GetAllQueryHandler(IEntityService<TDomain, TDto> service, IUserAccessManagerService<TDomain, TDto> checkUserService)
         {
             _service = service;
             _checkUserService = checkUserService;
         }
         public async Task<IEnumerable<TDto>> Handle(GetAllQuery<TDomain, TDto> request, CancellationToken cancellationToken)
         {
-            if (_checkUserService.CheckAdminAccess(request.Filters, out var updateFilters))
-            {
-                return (await _service.GetListAsync(updateFilters)).Value;
-            }
-            return (await _service.GetListAsync(updateFilters)).Value;
+            var generatedFilters = await _checkUserService.GenerateFiltersBasedOnUser(request.Filters);
+
+            return (await _service.GetListAsync(generatedFilters)).Value;
 
         }
     }

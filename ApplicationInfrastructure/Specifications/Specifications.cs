@@ -29,7 +29,7 @@ namespace ApplicationInfrastructure.Specifications
         }
         public IQueryable<T> ApplyFilter(IQueryable<T> query, Filters filters)
         {
-            if (filters.Roles == UserRole.Customer.ToString())
+            if (filters.UserRoleAccess == UserRole.Customer.ToString())
             {
                 query = query.Where(item => item.CreatedBy == filters.CreatedBy);
             }

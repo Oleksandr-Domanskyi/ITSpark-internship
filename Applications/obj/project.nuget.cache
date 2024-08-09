@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KldWvvwYPCM=",
+  "dgSpecHash": "Cu40kUgZOkk=",
   "success": true,
-  "projectFilePath": "D:\\ITSpark-internship\\Applications\\Applications.csproj",
+  "projectFilePath": "d:\\ITSpark-internship\\Applications\\Applications.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",

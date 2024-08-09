@@ -9,7 +9,6 @@ using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
-using Microsoft.VisualBasic;
 
 namespace ApplicationInfrastructure.Services.ImageService
 {

@@ -3,11 +3,13 @@ using ApplicationCore.Domain.Entity.Product;
 using ApplicationCore.Dto;
 using ApplicationCore.Dto.Response;
 using ApplicationInfrastructure.Contracts;
+using Applications.Contracts;
 using Applications.CQRS.User.Command.Register;
 using Applications.CQRS.User.Queries.GetCurrentUser;
 using Applications.Dto;
 using Applications.Dto.Request;
 using Applications.Services.CeneoService;
+using Applications.Services.FilterManagerService;
 using Applications.Services.UserService;
 using FluentValidation.AspNetCore;
 using MediatR;
@@ -29,9 +31,10 @@ namespace Applications.Extentions
             MediatrServices(services);
 
             services.AddTransient<ISearchProductCeneoService, SearchProductCeneoService>();
+            services.AddTransient<IFilterManagerService, FilterManagerService>();
 
 
-            services.AddTransient(typeof(ICheckUserService<,>), typeof(CheckUserService<,>));
+            services.AddTransient(typeof(IUserAccessManagerService<,>), typeof(UserAccessManagerService<,>));
         }
 
         private static void MediatrServices(IServiceCollection services)
