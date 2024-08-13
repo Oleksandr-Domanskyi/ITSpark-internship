@@ -18,17 +18,17 @@ namespace Applications.CQRS.Command.Delete
         where TDto : class
     {
         private readonly IEntityService<TDomain, TDto> _service;
-        private readonly IUserAccessManagerService<TDomain, TDomain> _checkUserService;
+        private readonly IUserAccessManagerService<TDomain, TDomain> _userAccessManagerService;
 
-        public DeleteCommandHandler(IEntityService<TDomain, TDto> service, IUserAccessManagerService<TDomain, TDomain> checkUserService)
+        public DeleteCommandHandler(IEntityService<TDomain, TDto> service, IUserAccessManagerService<TDomain, TDomain> userAccessManagerService)
         {
             _service = service;
-            _checkUserService = checkUserService;
+            _userAccessManagerService = userAccessManagerService;
         }
         public async Task Handle(DeleteCommand<TDomain, TDto> request, CancellationToken cancellationToken)
         {
 
-            if (await _checkUserService.CheckUserAccessAsync(request._id))
+            if (await _userAccessManagerService.CheckUserAccessAsync(request._id))
             {
                 await _service.DeleteAsync(request._id);
             }

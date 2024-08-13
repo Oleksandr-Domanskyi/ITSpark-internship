@@ -16,7 +16,8 @@ namespace Applications.Mapper
     {
         public ApplicationMapperProfile()
         {
-            CreateMap<Product, ProductDto>().ReverseMap();
+            CreateMap<Product, ProductDto>()
+            .ForMember(x => x.Id, dest => dest.MapFrom(src => src.Id)).ReverseMap();
 
             CreateMap<ProductRequest, Product>()
             .ForMember(x => x.images, dest => dest.Ignore());

@@ -21,16 +21,16 @@ namespace Applications.CQRS.Queries.GetAll
         where TDto : class
     {
         private readonly IEntityService<TDomain, TDto> _service;
-        private readonly IUserAccessManagerService<TDomain, TDto> _checkUserService;
+        private readonly IUserAccessManagerService<TDomain, TDto> _userAccessManagerService;
 
-        public GetAllQueryHandler(IEntityService<TDomain, TDto> service, IUserAccessManagerService<TDomain, TDto> checkUserService)
+        public GetAllQueryHandler(IEntityService<TDomain, TDto> service, IUserAccessManagerService<TDomain, TDto> userAccessManagerService)
         {
             _service = service;
-            _checkUserService = checkUserService;
+            _userAccessManagerService = userAccessManagerService;
         }
         public async Task<IEnumerable<TDto>> Handle(GetAllQuery<TDomain, TDto> request, CancellationToken cancellationToken)
         {
-            var generatedFilters = await _checkUserService.GenerateFiltersBasedOnUser(request.Filters);
+            var generatedFilters = await _userAccessManagerService.GenerateFiltersBasedOnUser(request.Filters);
 
             return (await _service.GetListAsync(generatedFilters)).Value;
 

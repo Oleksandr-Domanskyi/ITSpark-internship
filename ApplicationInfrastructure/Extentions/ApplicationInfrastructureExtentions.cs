@@ -45,10 +45,10 @@ namespace ApplicationInfrastructure.Extention
             services.AddScoped<IEmailSender, EmailSender>();
             services.AddScoped<IPDFProductGeneratorService, PDFProductGeneratorService>();
 
-
             services.AddScoped(typeof(IEntityService<,>), typeof(EntityServices<,>));
             services.AddScoped(typeof(ISpecification<>), typeof(Specification<>));
             services.AddScoped(typeof(IImageAzureService<,>), typeof(ImageAzureService<,>));
+            services.AddScoped(typeof(IImageManagerService<,>), typeof(ImageManagerService<,>));
             services.AddScoped(typeof(IOldImagePathService<>), typeof(OldImagePathService<>));
             services.AddScoped(typeof(IDeleteImageFromAzureEvent<,>), typeof(DeleteImageFromAzureEvent<,>));
 

@@ -27,7 +27,7 @@ namespace ApplicationInfrastructure.Data.Configurations
 
             builder.HasOne<Product>()
                 .WithMany(p => p.images)
-                .HasForeignKey(i => i.ItemProfileId)
+                .HasForeignKey(i => i.ProductId)
                 .OnDelete(DeleteBehavior.Cascade);
         }
     }

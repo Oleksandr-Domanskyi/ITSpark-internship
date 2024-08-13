@@ -25,44 +25,6 @@ namespace ApplicationInfrastructure.Services.ImageService
             _httpClient = new HttpClient();
         }
 
-        public bool HaveImages(TDto entity, out List<IFormFile> images)
-        {
-            var properties = entity.GetType().GetProperties();
-            var imageProps = properties.Where(p => p.PropertyType == typeof(List<IFormFile>));
-
-            if (imageProps.Any())
-            {
-                var firstImageProp = imageProps.First();
-                var propertyValue = firstImageProp.GetValue(entity);
-
-                images = (List<IFormFile>)propertyValue!;
-                return true;
-            }
-            images = default!;
-            return false;
-        }
-
-        public Entity SetImagePath(Entity entity, List<Image> Path)
-        {
-            if (Path == null)
-            {
-                return entity;
-            }
-            var properties = typeof(Entity).GetProperties().Where(p => p.PropertyType == typeof(List<Image>));
-            foreach (var property in properties)
-            {
-                property.SetValue(entity, Path);
-            }
-            return entity;
-        }
-        public List<Image> SetImageItemProfileId(List<Image> images, Guid itemProfileId)
-        {
-            foreach (var image in images)
-            {
-                image.ItemProfileId = itemProfileId;
-            }
-            return images;
-        }
         public async Task DeleteRangeOldImageFromAzure(Entity entity)
         {
             var oldImagePaths = new List<Image>();
@@ -91,7 +53,6 @@ namespace ApplicationInfrastructure.Services.ImageService
                 await blobClient.DeleteIfExistsAsync();
             }
         }
-
 
         public async Task<List<Image>> UploadImagesToAzure(List<IFormFile> images)
         {

@@ -15,7 +15,7 @@ namespace ApplicationInfrastructure.Data
 
         }
 
-        public DbSet<Product> ItemProfile { get; set; }
+        public DbSet<Product> Poduct { get; set; }
         public DbSet<Image> Image { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

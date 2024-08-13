@@ -23,9 +23,9 @@ namespace Applications.CQRS.GeneratePDF
 
         public GeneratePDFQueryHandler(IPDFProductGeneratorService generateProductPDFService,
                                        IEntityService<Product, ProductDto> entityService,
-                                       IUserAccessManagerService<Product, ProductDto> checkUserService)
+                                       IUserAccessManagerService<Product, ProductDto> userAccessManagerService)
         {
-            _userAccessManagerService = checkUserService;
+            _userAccessManagerService = userAccessManagerService;
             _generateProductPDFService = generateProductPDFService;
             _entityService = entityService;
         }

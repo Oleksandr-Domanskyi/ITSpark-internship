@@ -22,29 +22,28 @@ namespace ApplicationInfrastructure.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IImageAzureService<EntityType, EntityDto> _imageAzureService;
+        private readonly IImageManagerService<EntityType, EntityDto> _imageManagerService;
         private readonly IOldImagePathService<EntityType> _oldImagePathService;
         private readonly IDeleteImageFromAzureEvent<EntityType, EntityDto> _deleteImageFromAzureEvent;
 
         public EntityServices(IUnitOfWork unitOfWork, IMapper mapper,
-         IImageAzureService<EntityType, EntityDto> imageAzureService,
-         IOldImagePathService<EntityType> oldImagePathService,
-         IDeleteImageFromAzureEvent<EntityType, EntityDto> deleteImageFromAzureEvent)
+                            IImageAzureService<EntityType, EntityDto> imageAzureService,
+                            IImageManagerService<EntityType, EntityDto> imageManagerService,
+                            IOldImagePathService<EntityType> oldImagePathService,
+                            IDeleteImageFromAzureEvent<EntityType, EntityDto> deleteImageFromAzureEvent)
         {
             _imageAzureService = imageAzureService;
+            _imageManagerService = imageManagerService;
             _oldImagePathService = oldImagePathService;
             _deleteImageFromAzureEvent = deleteImageFromAzureEvent;
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
-        public async Task<Result<EntityType>> AddEntityAsync(EntityDto entity)
+        public async Task<Result<EntityType>> AddEntityAsync(EntityDto entityDto)
         {
-            var domainEntity = _mapper.Map<EntityType>(entity);
+            var domainEntity = _mapper.Map<EntityType>(entityDto);
+            domainEntity = await _imageManagerService.HandleImageUploadAsync(domainEntity, entityDto);
 
-            if (_imageAzureService.HaveImages(entity, out List<IFormFile> images))
-            {
-                var imagePaths = await _imageAzureService.UploadImagesToAzure(images);
-                domainEntity = _imageAzureService.SetImagePath(domainEntity, imagePaths);
-            }
             var response = await _unitOfWork.Repository<EntityType>().AddAsync(domainEntity);
             await _unitOfWork.SaveChangesAsync();
 
@@ -64,7 +63,7 @@ namespace ApplicationInfrastructure.Services
         public async Task<Result<EntityDto>> GetByIdAsync(Guid id)
         {
             var model = await Result.Try(async Task<EntityType> () =>
-                 await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification),
+                 (await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification))!,
                  ex => new Error(ex.Message));
             return Result.Ok(_mapper.Map<EntityDto>(model.Value));
         }
@@ -75,28 +74,14 @@ namespace ApplicationInfrastructure.Services
             return Result.Ok(_mapper.Map<IEnumerable<EntityDto>>(entity));
         }
 
-        public async Task<Result<EntityType>> UpdateAsync(EntityDto entity, Guid id)
+        public async Task<Result<EntityType>> UpdateAsync(EntityDto entityDto, Guid id)
         {
             var Domain = await _unitOfWork.Repository<EntityType>().GetByIdAsync(id, specification);
+            await _imageManagerService.HandleImageUpdateAsync(Domain!, entityDto, id);
 
-            if (_imageAzureService.HaveImages(entity, out List<IFormFile> images))
-            {
-                //Delete Old Images
-                _deleteImageFromAzureEvent.ImageDeleteEvent(Domain!);
-                var oldImagePath = _oldImagePathService.GetOldImagePath(Domain!);
-                await _unitOfWork.Repository<Image>().DeleteRangeAsync(oldImagePath);
+            Domain = _mapper.Map<EntityType>(entityDto);
+            Domain.Id = id;
 
-                //Save new Images
-                var Path = await _imageAzureService.UploadImagesToAzure(images);
-                Path = _imageAzureService.SetImageItemProfileId(Path, id);
-                await _unitOfWork.Repository<Image>().AddRange(Path);
-                Domain = _imageAzureService.SetImagePath(_mapper.Map<EntityType>(entity), Path);
-            }
-            else
-            {
-                Domain = _mapper.Map<EntityType>(entity);
-            }
-            Domain!.Id = id;
             var response = await _unitOfWork.Repository<EntityType>().UpdateAsync(Domain!);
 
             return Result.Ok(response);

@@ -9,6 +9,6 @@ namespace ApplicationCore.Domain.Entity.Image
     public class Image : Entity<Guid>
     {
         public string Path { get; set; } = default!;
-        public Guid ItemProfileId { get; set; }
+        public Guid ProductId { get; set; }
     }
 }

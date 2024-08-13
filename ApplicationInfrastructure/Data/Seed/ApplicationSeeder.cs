@@ -28,7 +28,7 @@ namespace ApplicationInfrastructure.Data.Seed
         {
             if (await _dbContext.Database.CanConnectAsync())
             {
-                if (!_dbContext.ItemProfile.Any())
+                if (!_dbContext.Poduct.Any())
                 {
                     var SeedModel = new Product
                     {
@@ -37,7 +37,7 @@ namespace ApplicationInfrastructure.Data.Seed
                         Category = Category.Figure.ToString(),
                         Price = 10.49,
                     };
-                    await _dbContext.ItemProfile.AddAsync(SeedModel);
+                    await _dbContext.Poduct.AddAsync(SeedModel);
                     await _dbContext.SaveChangesAsync();
                 }
 
